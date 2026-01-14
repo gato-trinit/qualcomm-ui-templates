@@ -76,9 +76,6 @@ export function MdxLayout({children, ...props}: Props): ReactNode {
 
   return (
     <DocsLayout
-      docProps={{
-        changelogUrl: "/changelogs/react",
-      }}
       footer={
         <DocsFooter className="flex flex-col items-start justify-center gap-1">
           Copyright © 2026 QUALCOMM incorporated. All rights reserved.{" "}
