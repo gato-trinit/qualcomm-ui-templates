@@ -9,5 +9,4 @@ export default {
     },
   ],
   pageDirectory: "routes",
-  pageTimestampMetadata: "user-and-timestamp",
 } satisfies QuiDocsConfig
