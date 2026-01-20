@@ -1,0 +1,86 @@
+name: "Update QUI Dependencies"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-qui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changes: ${{ steps.git-check.outputs.changes }}
+    steps:
+    - name: clone
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: ./.github/actions/init-node-and-install
+
+    - name: Update QUI
+      run: pnpm update-qui
+
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --name-only | grep 'package.json' > /dev/null && echo "changes=true" >> $GITHUB_OUTPUT || echo "changes=false" >> $GITHUB_OUTPUT
+
+    - name: Upload updated repo
+      if: steps.git-check.outputs.changes == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: updated-repo
+        path: .
+        include-hidden-files: true
+
+  verify-templates:
+    needs: update-qui
+    if: needs.update-qui.outputs.changes == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        template:
+          - angular-ssr
+          - react-nextjs
+          - react-qui-docs
+          - react-router-ssr
+          - typescript
+    steps:
+    - name: Download updated repo
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-repo
+        path: .
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+
+    - name: Install and build ${{ matrix.template }}
+      working-directory: templates/${{ matrix.template }}
+      run: |
+        npm install
+        npm run build
+
+  commit-changes:
+    needs: [update-qui, verify-templates]
+    if: needs.update-qui.outputs.changes == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+    - name: Download updated repo
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-repo
+        path: .
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add '**/package.json' 'package.json'
+        git commit -m "chore: update QUI dependencies"
+        git push
