@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     // resolve font issues from behind VPN
     turbopackUseSystemTlsCerts: true,
   },
+  reactCompiler: true,
   turbopack: {
     root: cwd(),
   },
