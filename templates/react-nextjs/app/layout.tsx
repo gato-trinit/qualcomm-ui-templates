@@ -43,6 +43,9 @@ export default async function RootLayout({
       lang="en"
       style={{colorScheme: theme}}
     >
+      <head>
+        <link href="https://use.typekit.net/nhs4wvu.css" rel="stylesheet" />
+      </head>
       <body className={`${sansFont.variable} ${monoFont.variable} antialiased`}>
         <ThemeProvider defaultTheme={theme}>
           <AppLayout>{children}</AppLayout>
