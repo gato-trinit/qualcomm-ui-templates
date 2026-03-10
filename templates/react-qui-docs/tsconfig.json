@@ -4,11 +4,6 @@
     "baseUrl": "./",
     "moduleResolution": "bundler",
     "module": "nodenext",
-    "paths": {
-      "~assets/*": ["./src/assets/*"],
-      "~components/*": ["./src/components/*"],
-      "~utils/*": ["./src/utils/*"]
-    }
   },
   "include": ["./src/**/*.mdx"],
   "references": [

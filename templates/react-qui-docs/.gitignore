@@ -21,6 +21,7 @@ tmp/
 **/stats.yml
 **/meta.json
 **/build-metafile.json
+public/exports
 
 ###############################################################################
 # Frameworks

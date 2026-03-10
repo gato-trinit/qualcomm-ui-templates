@@ -1,6 +1,6 @@
 import "./app.css"
 
-import {type ReactNode, useEffect, useState} from "react"
+import {type ReactNode, useEffect, useMemo, useState} from "react"
 
 import {
   isRouteErrorResponse,
@@ -15,6 +15,7 @@ import {
   useRouteLoaderData,
 } from "react-router"
 
+import {getPages} from "@qualcomm-ui/docs-plugin/markdown-content"
 import type {SiteData} from "@qualcomm-ui/mdx-common"
 import {siteData} from "@qualcomm-ui/mdx-vite-plugin"
 import {SiteContextProvider} from "@qualcomm-ui/react-mdx/context"
@@ -84,8 +85,15 @@ export function Layout({children}: {children: ReactNode}) {
     }
   }, [])
 
+  const siteContext = useMemo(() => {
+    return {
+      ...docsSiteData,
+      getPages,
+    }
+  }, [docsSiteData])
+
   return (
-    <SiteContextProvider value={docsSiteData}>
+    <SiteContextProvider value={siteContext}>
       <ThemeProvider theme={data?.qdsTheme} themeAction="/action/set-theme">
         {children}
       </ThemeProvider>
