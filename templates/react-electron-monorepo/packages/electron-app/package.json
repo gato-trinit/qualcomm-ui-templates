@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "name": "@project/electron-app",
+  "description": "Electron Template using go/qui-react React components",
+  "private": true,
+  "type": "module",
+  "main": "dist/main.cjs",
+  "types": "dist/index.d.ts",
+  "author": "Qualcomm",
+  "homepage": "",
+  "scripts": {
+    "clean": "shx rm -rf dist out",
+    "compile": "node --import=tsx scripts/build.ts --mode production",
+    "compile:types": "tsc -b tsconfig.lib.json --force",
+    "build": "pnpm clean && run-p compile compile:types",
+    "dev": "run-p watch:js watch:types",
+    "watch:js": "cross-env DEV=1 node --import=tsx ./scripts/build.ts --mode development --watch",
+    "watch:types": "tsc -b tsconfig.lib.json --force -w --preserveWatchOutput",
+    "package": "electron-builder --dir --config electron-builder.config.ts",
+    "lint": "eslint",
+    "test": "cross-env DEBUG=pw:browser* playwright test",
+    "test:ci": "cross-env IS_CI=true DISPLAY=:99 xvfb-run --auto-servernum -- playwright test",
+    "typecheck": "tsc -b tsconfig.lib.json --force"
+  },
+  "dependencies": {
+    "@project/react-app": "workspace:*",
+    "@project/shared-types": "workspace:*",
+    "@qualcomm-ui/tsconfig": "^2.0.0",
+    "electron-store": "^11.0.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@qui/esbuild": "^1.0.0",
+    "@types/mime": "^3.0.4",
+    "@types/node": "^24",
+    "cross-env": "^10.1.0",
+    "electron": "^41.0.4",
+    "electron-builder": "^26.8.1",
+    "esbuild": "^0.27.4",
+    "glob": "^13.0.6",
+    "npm-run-all2": "^8.0.4",
+    "ora": "^9.3.0",
+    "shx": "^0.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

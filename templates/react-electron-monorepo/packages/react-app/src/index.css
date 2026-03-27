@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@import "@qualcomm-ui/tailwind-plugin/qui-strict.css";
+
+@import "@qualcomm-ui/qds-core/styles/components.css" layer(components);
+@import "@qualcomm-ui/qds-core/themes/qualcomm-light.css" layer(components);
+@import "@qualcomm-ui/qds-core/themes/qualcomm-dark.css" layer(components);
+
+@theme {
+  --font-sans: var(--type-font-family-secondary), sans-serif;
+}
+
+html,
+body {
+  background-color: var(--color-background-neutral-00);
+  color: var(--color-text-neutral-primary);
+  font-family: var(--type-font-family-secondary), sans-serif;
+}
