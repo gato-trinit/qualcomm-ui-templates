@@ -15,8 +15,8 @@ This template can be used to kickstart your desktop application development.
 - Install [Node.js](https://nodejs.org/)
 - Install [Rust](https://www.rust-lang.org/tools/install)
 - Install [Tauri prerequisites](https://tauri.app/start/prerequisites/)
-- Use [Corepack](https://pnpm.io/installation#using-corepack) to install pnpm:
-  - `corepack enable pnpm`
+- Use [Corepack](https://pnpm.io/installation#using-corepack) to enable pnpm installation
+  - `corepack enable`
 
 ## Install Dependencies
 

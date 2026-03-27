@@ -16,12 +16,7 @@ The React frontend is organized using [Feature-Sliced Design](https://react.qui.
 ## Install Dependencies
 
 - Install Node.js
-- Once Node is installed, install pnpm:
-  - Do not install pnpm globally.
-  - Use [Corepack](https://pnpm.io/installation#using-corepack) to install the version in the root `package.json` `packageManager` field:
-    - `corepack enable pnpm` (you only need to do this once for the version of node that you're using)
-    - `pnpm install`
-      - Follow the prompts as instructed to install this module's version of pnpm.
+- Once Node is installed, run `corepack enable`
 
 ## Install NPM Dependencies
 
