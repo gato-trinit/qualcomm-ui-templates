@@ -1,0 +1,41 @@
+{
+  "name": "@qui/react-tauri-vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "tauri dev",
+    "lint": "turbo run lint",
+    "lint:ci": "turbo run lint --continue",
+    "lint:cache": "eslint --quiet --cache",
+    "test": "turbo run test --env-mode=loose",
+    "test:ci": "turbo run test:ci --env-mode=loose",
+    "bundle": "run-s build package",
+    "update-qui": "ncu --deep --filter '@qualcomm-ui/*' -u",
+    "react-app": "pnpm -C packages/react-app"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@qualcomm-ui/eslint-config-mdx": "^1.1.0",
+    "@qualcomm-ui/eslint-config-react": "^1.1.0",
+    "@qualcomm-ui/eslint-config-typescript": "^2.0.0",
+    "@qualcomm-ui/eslint-plugin-react": "^1.0.0",
+    "@qualcomm-ui/tsconfig": "^2.0.0",
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^24",
+    "@types/react": "~19.2.14",
+    "@types/react-dom": "~19.2.3",
+    "eslint": "^9.39.4",
+    "globals": "^16.5.0",
+    "npm-run-all2": "^8.0.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "syncpack": "^14.2.1",
+    "tailwindcss": "~4.2.2",
+    "turbo": "^2.8.20",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0",
+    "vite": "^8.0.3"
+  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
+}

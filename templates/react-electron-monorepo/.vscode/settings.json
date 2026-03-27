@@ -1,0 +1,12 @@
+{
+  // This setting is required to enable linting on MDX files.
+  "eslint.validate": [
+    "markdown",
+    "md",
+    "mdx",
+    "html",
+    "javascript",
+    "typescript",
+    "typescriptreact"
+  ]
+}
