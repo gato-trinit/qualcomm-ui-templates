@@ -1,6 +1,6 @@
 import type {ReactNode} from "react"
 
-import {ExternalLink} from "../external-link"
+import {Link} from "@qualcomm-ui/react/link"
 
 export function Welcome(): ReactNode {
   return (
@@ -15,9 +15,13 @@ export function Welcome(): ReactNode {
         </h2>
         <p className="text-neutral-secondary font-body-md mb-4">
           This is a preconfigured QUI starter application. Refer to the{" "}
-          <ExternalLink href="https://react-next.qui.qualcomm.com" size="md">
+          <Link
+            href="https://react-next.qui.qualcomm.com"
+            size="md"
+            target="_blank"
+          >
             documentation
-          </ExternalLink>{" "}
+          </Link>{" "}
           for component usage.
         </p>
         <p className="text-neutral-secondary font-body-md">
@@ -41,7 +45,7 @@ export function Welcome(): ReactNode {
           <h3 className="font-heading-md text-neutral-primary mb-3">Theming</h3>
           <p className="text-neutral-secondary font-body-sm">
             Full support for light and dark themes with automatic persistence
-            using electron storage.
+            using Tauri store.
           </p>
         </div>
 
@@ -59,9 +63,12 @@ export function Welcome(): ReactNode {
           </h3>
           <p className="text-neutral-secondary font-body-sm">
             Tailwind support including theme variables from the the QUI{" "}
-            <ExternalLink href="https://react-next.qui.qualcomm.com/integrations/tailwind">
+            <Link
+              href="https://react-next.qui.qualcomm.com/integrations/tailwind"
+              target="_blank"
+            >
               Tailwind Plugin
-            </ExternalLink>
+            </Link>
           </p>
         </div>
       </div>
