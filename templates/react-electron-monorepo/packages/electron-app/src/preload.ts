@@ -27,3 +27,15 @@ const api: ElectronApi = {
 }
 
 contextBridge.exposeInMainWorld("api", api)
+
+// Set data-theme on <html> before page scripts run to prevent theme flash.
+// Fetch the theme synchronously, then apply as soon as the DOM is available.
+const theme = ipcRenderer.sendSync("ipc::get-theme-sync") as string
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+    document.documentElement.setAttribute("data-theme", theme)
+    document.documentElement.style.colorScheme = theme
+  },
+  {once: true},
+)

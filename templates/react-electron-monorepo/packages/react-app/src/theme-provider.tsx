@@ -3,7 +3,6 @@ import {
   type ReactNode,
   useCallback,
   useContext,
-  useEffect,
   useLayoutEffect,
   useState,
 } from "react"
@@ -29,34 +28,27 @@ function getElectronApi(): ElectronApi | undefined {
   return undefined
 }
 
+/**
+ * Read the initial theme. In Electron the preload has already set data-theme
+ * on <html> synchronously, so we just read it. In browser mode we fall back
+ * to localStorage.
+ */
+function getInitialTheme(): QdsTheme {
+  const attr = document.documentElement.getAttribute("data-theme")
+  if (attr === QdsTheme.LIGHT || attr === QdsTheme.DARK) {
+    return attr
+  }
+  return localStorage.getItem(THEME_STORAGE_KEY) === QdsTheme.LIGHT
+    ? QdsTheme.LIGHT
+    : QdsTheme.DARK
+}
+
 interface ThemeProviderProps {
   children: ReactNode
 }
 
 export function ThemeProvider({children}: ThemeProviderProps) {
-  const [theme, setThemeState] = useState<QdsTheme>(() => {
-    const electronApi = getElectronApi()
-    if (electronApi) {
-      // In Electron, default to dark; useEffect will fetch the persisted value
-      return QdsTheme.DARK
-    }
-    return localStorage.getItem(THEME_STORAGE_KEY) === QdsTheme.LIGHT
-      ? QdsTheme.LIGHT
-      : QdsTheme.DARK
-  })
-
-  // On mount in Electron, fetch the persisted theme from the main process
-  useLayoutEffect(() => {
-    const electronApi = getElectronApi()
-    if (electronApi) {
-      void electronApi.getTheme().then((res) => {
-        const stored = res.theme as QdsTheme
-        if (stored === QdsTheme.LIGHT || stored === QdsTheme.DARK) {
-          setThemeState(stored)
-        }
-      })
-    }
-  }, [])
+  const [theme, setThemeState] = useState<QdsTheme>(getInitialTheme)
 
   // Apply theme to DOM whenever it changes
   useLayoutEffect(() => {

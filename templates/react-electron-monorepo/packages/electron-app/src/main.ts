@@ -1,8 +1,9 @@
-import {app, BrowserWindow} from "electron"
+import {app, BrowserWindow, ipcMain} from "electron"
 import {resolve} from "node:path"
 import {setTimeout} from "node:timers/promises"
 
 import {registerHandlers} from "./handlers/registry"
+import {store} from "./store"
 
 let win: BrowserWindow
 
@@ -11,7 +12,11 @@ const appUrl = "http://localhost:5173"
 const createWindow = async () => {
   const isDev = process.env.DEV
 
+  const theme = store.get("theme")
+  const backgroundColor = theme === "light" ? "#ffffff" : "#0a0a0a"
+
   win = new BrowserWindow({
+    backgroundColor,
     height: 800,
     webPreferences: {
       preload: resolve(__dirname, "./preload.cjs"),
@@ -80,6 +85,12 @@ const createWindow = async () => {
 
 app.whenReady().then(() => {
   registerHandlers()
+
+  // Sync handler so the preload can set data-theme before the page renders
+  ipcMain.on("ipc::get-theme-sync", (event) => {
+    event.returnValue = store.get("theme")
+  })
+
   createWindow()
 })
 
