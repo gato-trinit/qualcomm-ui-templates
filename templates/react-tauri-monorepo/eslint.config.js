@@ -1,4 +1,5 @@
 import {defineConfig} from "eslint/config"
+import {join} from "node:path"
 import * as tseslint from "typescript-eslint"
 
 import quiEslintMdx from "@qualcomm-ui/eslint-config-mdx"
@@ -66,6 +67,14 @@ const eslintConfig = defineConfig([
   {
     extends: [quiEslintMdx.configs.recommended],
     files: ["**/*.{md,mdx}", "*.md"],
+    languageOptions: {
+      parserOptions: {
+        remarkConfigPath: join(
+          import.meta.dirname,
+          "node_modules/@qualcomm-ui/eslint-config-mdx/.remarkrc",
+        ),
+      },
+    },
   },
 ])
 

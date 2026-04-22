@@ -25,10 +25,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
-    "@qualcomm-ui/eslint-config-mdx": "^1.1.0",
-    "@qualcomm-ui/eslint-config-react": "^1.1.0",
+    "@qualcomm-ui/eslint-config-mdx": "^2.0.1",
+    "@qualcomm-ui/eslint-config-react": "^1.1.1",
     "@qualcomm-ui/eslint-config-typescript": "^2.0.0",
-    "@qualcomm-ui/eslint-plugin-react": "^1.0.0",
+    "@qualcomm-ui/eslint-plugin-react": "^1.1.0",
     "@qualcomm-ui/tsconfig": "^2.0.0",
     "@types/node": "^24",
     "@types/react": "~19.2.14",

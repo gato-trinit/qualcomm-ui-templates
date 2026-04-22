@@ -2,9 +2,9 @@ import mdx from "@mdx-js/rollup"
 import {reactRouter} from "@react-router/dev/vite"
 import tailwindcss from "@tailwindcss/vite"
 import {defineConfig} from "vite"
-import tsconfigPaths from "vite-tsconfig-paths"
 
 import {
+  frontmatterHmrPlugin,
   getRehypePlugins,
   getRemarkPlugins,
   quiDocsPlugin,
@@ -19,7 +19,10 @@ export default defineConfig({
       remarkPlugins: [...getRemarkPlugins()],
     }),
     reactRouter(),
-    tsconfigPaths(),
     quiDocsPlugin(),
+    frontmatterHmrPlugin(),
   ],
+  resolve: {
+    tsconfigPaths: true,
+  },
 })
