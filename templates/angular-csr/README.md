@@ -1,8 +1,8 @@
-# QUI Angular SSR
+# QUI Angular CSR
 
 QUI Angular project template featuring:
 
-- Angular SSR
+- Angular Clientside Rendering
 - [QUI Angular](https://angular-next.qui.qualcomm.com)
 - Vitest Browser Mode + Playwright
 - ESLint
