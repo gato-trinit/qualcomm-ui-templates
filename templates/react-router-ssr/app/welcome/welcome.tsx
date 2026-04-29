@@ -9,7 +9,7 @@ export function Welcome(): ReactNode {
         Welcome to Your App
       </h1>
 
-      <div className="bg-surface-primary mb-6 rounded-lg pt-6 shadow-sm">
+      <div className="bg-neutral-01 mb-6 rounded-lg pt-6 shadow-sm">
         <h2 className="font-heading-lg text-neutral-primary mb-4">
           Getting Started
         </h2>
@@ -31,7 +31,7 @@ export function Welcome(): ReactNode {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
-        <div className="bg-surface-primary rounded-lg p-6 shadow-sm">
+        <div className="bg-neutral-01 rounded-lg p-6 shadow-sm">
           <h3 className="font-heading-md text-neutral-primary mb-3">
             Components
           </h3>
@@ -41,7 +41,7 @@ export function Welcome(): ReactNode {
           </p>
         </div>
 
-        <div className="bg-surface-primary rounded-lg p-6 shadow-sm">
+        <div className="bg-neutral-01 rounded-lg p-6 shadow-sm">
           <h3 className="font-heading-md text-neutral-primary mb-3">Theming</h3>
           <p className="text-neutral-secondary font-body-sm">
             Full support for light and dark themes with automatic persistence
@@ -49,7 +49,7 @@ export function Welcome(): ReactNode {
           </p>
         </div>
 
-        <div className="bg-surface-primary rounded-lg p-6 shadow-sm">
+        <div className="bg-neutral-01 rounded-lg p-6 shadow-sm">
           <h3 className="font-heading-md text-neutral-primary mb-3">ESLint</h3>
           <p className="text-neutral-secondary font-body-sm">
             Preconfigured ESLint configuration for automatic linting and
@@ -57,7 +57,7 @@ export function Welcome(): ReactNode {
           </p>
         </div>
 
-        <div className="bg-surface-primary rounded-lg p-6 shadow-sm">
+        <div className="bg-neutral-01 rounded-lg p-6 shadow-sm">
           <h3 className="font-heading-md text-neutral-primary mb-3">
             Tailwind
           </h3>

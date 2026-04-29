@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@import "@qualcomm-ui/tailwind-plugin/qui-strict.css";
+
+/* You can add global styles to this file, and also import other style files */
+@import "@qualcomm-ui/qds-core/styles/components.css";
+@import "@qualcomm-ui/qds-core/themes/qualcomm-dark.css";
+@import "@qualcomm-ui/qds-core/themes/qualcomm-light.css";
+
+:root {
+  --type-font-family-secondary: var(--font-roboto-flex);
+  --type-font-family-tertiary: var(--font-roboto-mono);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: var(--color-background-neutral-00);
+  color: var(--color-text-neutral-primary);
+  font-family: var(--type-font-family-primary), "Roboto Flex", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 16px;
+}
+
