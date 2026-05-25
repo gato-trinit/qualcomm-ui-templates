@@ -1,6 +1,16 @@
 packages:
   - packages/*
 
+allowBuilds:
+  electron-winstaller: true
+  esbuild: true
+  unrs-resolver: true
+
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  - '@qualcomm-ui/eslint-config-mdx@3.0.0'
+
 onlyBuiltDependencies:
   - electron
   - electron-winstaller

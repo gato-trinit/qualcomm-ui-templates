@@ -25,4 +25,7 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
+  ssr: {
+    noExternal: ["@qualcomm-ui/react-mdx", "react-shiki"],
+  },
 })

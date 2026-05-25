@@ -17,17 +17,17 @@ Instructions:
 - Pick a template from the `templates` directory and run the following command:
 
 ```shell
-npx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/<TEMPLATE_FOLDER> <PROJECT_NAME>
+pnpx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/<TEMPLATE_FOLDER> <PROJECT_NAME>
 ```
 
 Install dependencies using your preferred package manager, then you're ready to go.
 
 ### Example
 
-The following example creates a new Angular SSR project named `my-project`:
+The following example creates a new React Router SSR project named `my-project`:
 
 ```shell
-npx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/angular-ssr my-project
+pnpx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/react-router-ssr my-project
 ```
 
 ## Development

@@ -1,7 +1,8 @@
-import {buildOrWatch, getArg, hasArg, logPlugin} from "@qui/esbuild"
 import {cp, mkdir, rm} from "node:fs/promises"
 import {dirname, resolve} from "node:path"
 import {fileURLToPath} from "node:url"
+
+import {buildOrWatch, getArg, hasArg, logPlugin} from "@qualcomm-ui/esbuild"
 
 import {startElectron} from "./start-electron"
 

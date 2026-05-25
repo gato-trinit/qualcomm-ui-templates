@@ -1,14 +1,12 @@
-packages:
-  - packages/*
-
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
 
 minimumReleaseAge: 1440
 
-minimumReleaseAgeExclude:
-  - '@qualcomm-ui/eslint-config-mdx@3.0.0'
-
 allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
   unrs-resolver: true

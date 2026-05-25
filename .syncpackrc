@@ -1,5 +1,12 @@
 {
   "$schema": "./node_modules/syncpack/schema.json",
+  "semverGroups": [
+    {
+      "range": "",
+      "packages": ["**"],
+      "dependencies": ["!@qualcomm-ui/**"]
+    }
+  ],
   "versionGroups": [
     {
       "label": "Ignore workspace dependencies",

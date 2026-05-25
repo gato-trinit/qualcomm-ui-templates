@@ -9,7 +9,7 @@ export function Welcome(): ReactNode {
         Welcome to Your App
       </h1>
 
-      <div className="bg-neutral-01 mb-6 rounded-lg pt-6 shadow-sm">
+      <div className="mb-6 rounded-lg pt-6">
         <h2 className="font-heading-lg text-neutral-primary mb-4">
           Getting Started
         </h2>

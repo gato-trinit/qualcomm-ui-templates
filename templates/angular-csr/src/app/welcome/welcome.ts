@@ -11,7 +11,7 @@ import {LinkDirective} from "@qualcomm-ui/angular/link"
         Welcome to Your App
       </h1>
 
-      <div class="mb-6 rounded-lg pt-6 shadow-sm">
+      <div class="mb-6 rounded-lg pt-6">
         <h2 class="font-heading-lg text-neutral-primary mb-4">
           Getting Started
         </h2>
