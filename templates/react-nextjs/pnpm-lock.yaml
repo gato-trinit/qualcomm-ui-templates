@@ -75,6 +75,9 @@ importers:
       eslint-import-resolver-typescript:
         specifier: 4.4.4
         version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@9.39.4(jiti@2.7.0))
+      npm-check-updates:
+        specifier: 22.1.1
+        version: 22.1.1
       prettier:
         specifier: 3.8.3
         version: 3.8.3
@@ -1910,6 +1913,11 @@ packages:
   node-releases@2.0.46:
     resolution: {integrity: sha512-GYVXHE2KnrzAfsAjl4uP++evGFCrAU1jta4ubEjIG7YWt/64Gqv66a30yKwWczVjA6j3bM4nBwH7Pk1JmDHaxQ==}
     engines: {node: '>=18'}
+
+  npm-check-updates@22.1.1:
+    resolution: {integrity: sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
+    hasBin: true
 
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
@@ -4325,6 +4333,8 @@ snapshots:
       semver: 6.3.1
 
   node-releases@2.0.46: {}
+
+  npm-check-updates@22.1.1: {}
 
   object-assign@4.1.1: {}
 

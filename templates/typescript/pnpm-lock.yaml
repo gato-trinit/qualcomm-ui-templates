@@ -33,6 +33,9 @@ importers:
       globals:
         specifier: 16.5.0
         version: 16.5.0
+      npm-check-updates:
+        specifier: 22.1.1
+        version: 22.1.1
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -1582,6 +1585,11 @@ packages:
   node-exports-info@1.6.0:
     resolution: {integrity: sha512-pyFS63ptit/P5WqUkt+UUfe+4oevH+bFeIiPPdfb0pFeYEu/1ELnJu5l+5EcTKYL5M7zaAa7S8ddywgXypqKCw==}
     engines: {node: '>= 0.4'}
+
+  npm-check-updates@22.1.1:
+    resolution: {integrity: sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
+    hasBin: true
 
   npm-normalize-package-bin@4.0.0:
     resolution: {integrity: sha512-TZKxPvItzai9kN9H/TkmCtx/ZN/hvr3vUycjlfmH0ootY9yFBzNOpiXAdIn1Iteqsvk4lQn6B5PTrt+n6h8k/w==}
@@ -3673,6 +3681,8 @@ snapshots:
       es-errors: 1.3.0
       object.entries: 1.1.9
       semver: 6.3.1
+
+  npm-check-updates@22.1.1: {}
 
   npm-normalize-package-bin@4.0.0: {}
 

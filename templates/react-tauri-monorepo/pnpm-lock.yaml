@@ -44,6 +44,9 @@ importers:
       globals:
         specifier: 16.5.0
         version: 16.5.0
+      npm-check-updates:
+        specifier: 22.1.1
+        version: 22.1.1
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -2482,6 +2485,11 @@ packages:
   normalize-package-data@6.0.2:
     resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
     engines: {node: ^16.14.0 || >=18.0.0}
+
+  npm-check-updates@22.1.1:
+    resolution: {integrity: sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
+    hasBin: true
 
   npm-install-checks@6.3.0:
     resolution: {integrity: sha512-W29RiK/xtpCGqn6f3ixfRYGk+zRyr+Ew9F2E20BfXxT5/euLdA/Nm7fO7OeTGuAmTs30cpgInyJ0cYe708YTZw==}
@@ -5935,6 +5943,8 @@ snapshots:
       hosted-git-info: 7.0.2
       semver: 7.8.1
       validate-npm-package-license: 3.0.4
+
+  npm-check-updates@22.1.1: {}
 
   npm-install-checks@6.3.0:
     dependencies:

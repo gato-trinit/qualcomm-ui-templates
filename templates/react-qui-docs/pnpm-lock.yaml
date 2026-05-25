@@ -19,7 +19,7 @@ importers:
         version: 2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0)
       '@qualcomm-ui/mdx-vite':
         specifier: ^3.7.4
-        version: 3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@3.23.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)
+        version: 3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@4.1.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)
       '@qualcomm-ui/qds-core':
         specifier: ^1.28.1
         version: 1.28.1(@qualcomm-ui/core@1.11.0(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
@@ -31,10 +31,10 @@ importers:
         version: 1.5.1(@qualcomm-ui/core@1.11.0(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@qualcomm-ui/react-mdx':
         specifier: ^2.8.3
-        version: 2.8.3(bbc1cd76f21a6975c073b9d73483829d)
+        version: 2.8.3(c99ee2f9582e358d6a0f3faf45b41597)
       '@qualcomm-ui/react-router-utils':
         specifier: ^2.0.20
-        version: 2.0.20(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@3.23.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3))(minimatch@10.2.5)(react-dom@19.2.6(react@19.2.6))(react-router@7.15.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react@19.2.6)
+        version: 2.0.20(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@4.1.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3))(minimatch@10.2.5)(react-dom@19.2.6(react@19.2.6))(react-router@7.15.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react@19.2.6)
       '@qualcomm-ui/tailwind-plugin':
         specifier: ^1.7.1
         version: 1.7.1(tailwindcss@4.3.0)
@@ -117,6 +117,9 @@ importers:
       globals:
         specifier: 16.5.0
         version: 16.5.0
+      npm-check-updates:
+        specifier: 22.1.1
+        version: 22.1.1
       prettier:
         specifier: 3.8.3
         version: 3.8.3
@@ -3277,6 +3280,11 @@ packages:
     resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
+  npm-check-updates@22.1.1:
+    resolution: {integrity: sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
+    hasBin: true
+
   npm-install-checks@6.3.0:
     resolution: {integrity: sha512-W29RiK/xtpCGqn6f3ixfRYGk+zRyr+Ew9F2E20BfXxT5/euLdA/Nm7fO7OeTGuAmTs30cpgInyJ0cYe708YTZw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
@@ -5055,7 +5063,7 @@ snapshots:
       '@qualcomm-ui/typedoc-common': 1.0.6
       fuzzysort: 3.1.0
 
-  '@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@3.23.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)':
+  '@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@4.1.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)':
     dependencies:
       '@qualcomm-ui/mdx-common': 2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0)
       '@qualcomm-ui/typedoc-common': 1.0.6
@@ -5091,7 +5099,7 @@ snapshots:
       remark-parse-frontmatter: 1.0.3
       remark-rehype: 11.1.2
       remark-stringify: 11.0.0
-      shiki: 3.23.0
+      shiki: 4.1.0
       typescript: 5.9.3
       unified: 11.0.5
       unist-util-filter: 5.0.1
@@ -5128,7 +5136,7 @@ snapshots:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
 
-  '@qualcomm-ui/react-mdx@2.8.3(bbc1cd76f21a6975c073b9d73483829d)':
+  '@qualcomm-ui/react-mdx@2.8.3(c99ee2f9582e358d6a0f3faf45b41597)':
     dependencies:
       '@floating-ui/react': 0.27.19(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@mdx-js/react': 3.1.0(@types/react@19.2.15)(react@19.2.6)
@@ -5137,8 +5145,8 @@ snapshots:
       '@qualcomm-ui/react': 1.22.1(77e6b7b8dd90594d324ee9d185c7737c)
       '@qualcomm-ui/react-core': 1.5.1(@qualcomm-ui/core@1.11.0(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@qualcomm-ui/utils': 1.3.0
-      '@shikijs/langs': 3.23.0
-      '@shikijs/themes': 3.23.0
+      '@shikijs/langs': 4.1.0
+      '@shikijs/themes': 4.1.0
       fuzzysort: 3.1.0
       lodash-es: 4.18.1
       lucide-react: 1.16.0(react@19.2.6)
@@ -5148,15 +5156,15 @@ snapshots:
       react-dom: 19.2.6(react@19.2.6)
       react-shiki: 0.10.0(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       react-simple-code-editor: 0.14.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
-      shiki: 3.23.0
+      shiki: 4.1.0
       sucrase: 3.35.1
     optionalDependencies:
       my-ua-parser: 2.0.4
 
-  '@qualcomm-ui/react-router-utils@2.0.20(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@3.23.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3))(minimatch@10.2.5)(react-dom@19.2.6(react@19.2.6))(react-router@7.15.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react@19.2.6)':
+  '@qualcomm-ui/react-router-utils@2.0.20(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/mdx-vite@3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@4.1.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3))(minimatch@10.2.5)(react-dom@19.2.6(react@19.2.6))(react-router@7.15.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react@19.2.6)':
     dependencies:
       '@qualcomm-ui/mdx-common': 2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0)
-      '@qualcomm-ui/mdx-vite': 3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@3.23.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)
+      '@qualcomm-ui/mdx-vite': 3.7.4(@qualcomm-ui/mdx-common@2.4.0(@qualcomm-ui/typedoc-common@1.0.6)(fuzzysort@3.1.0))(@qualcomm-ui/typedoc-common@1.0.6)(@qualcomm-ui/utils@1.3.0)(lodash-es@4.18.1)(minimatch@10.2.5)(rehype-mdx-code-props@3.0.1)(remark-frontmatter@5.0.0)(remark-gfm@4.0.1)(remark-mdx-frontmatter@4.0.0)(shiki@4.1.0)(typescript@5.9.3)(vite@8.0.14(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))(zod@4.4.3)
       minimatch: 10.2.5
       my-ua-parser: 2.0.4
       react: 19.2.6
@@ -8012,6 +8020,8 @@ snapshots:
       hosted-git-info: 7.0.2
       semver: 7.8.1
       validate-npm-package-license: 3.0.4
+
+  npm-check-updates@22.1.1: {}
 
   npm-install-checks@6.3.0:
     dependencies:

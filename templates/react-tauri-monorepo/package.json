@@ -13,7 +13,8 @@
     "test:ci": "turbo run test:ci --env-mode=loose",
     "bundle": "run-s build package",
     "update-qui": "ncu --deep --filter '@qualcomm-ui/*' -u",
-    "react-app": "pnpm -C packages/react-app"
+    "react-app": "pnpm -C packages/react-app",
+    "update-dependencies": "ncu --cooldown 1d --target minor --deep -u"
   },
   "devDependencies": {
     "@eslint/js": "9.39.4",
@@ -28,6 +29,7 @@
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
     "globals": "16.5.0",
+    "npm-check-updates": "22.1.1",
     "npm-run-all2": "8.0.4",
     "prettier-plugin-tailwindcss": "0.8.0",
     "syncpack": "14.2.1",

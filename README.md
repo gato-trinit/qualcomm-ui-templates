@@ -17,7 +17,7 @@ Instructions:
 - Pick a template from the `templates` directory and run the following command:
 
 ```shell
-pnpx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/<TEMPLATE_FOLDER> <PROJECT_NAME>
+npx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/<TEMPLATE_FOLDER> <PROJECT_NAME>
 ```
 
 Install dependencies using your preferred package manager, then you're ready to go.
@@ -27,7 +27,7 @@ Install dependencies using your preferred package manager, then you're ready to 
 The following example creates a new React Router SSR project named `my-project`:
 
 ```shell
-pnpx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/react-router-ssr my-project
+npx tiged https://github.com/qualcomm/qualcomm-ui-templates/templates/react-router-ssr my-project
 ```
 
 ## Development
@@ -41,10 +41,6 @@ Local development is only necessary if you plan to update templates.
 ### Requirements
 
 - [Node.js](https://nodejs.org/en) `^20.19.0 || ^22.12.0 || ^24.0.0`
-- [pnpm](https://pnpm.io/installation#using-corepack)
-  - Do not install pnpm globally. Use [Corepack](https://pnpm.io/installation#using-corepack)
-  - Use corepack to install the version in the root `package.json` `packageManager` field:
-    - `corepack enable pnpm` (you only need to do this once for the version of node that you're using)
 
 ### Installation Instructions
 

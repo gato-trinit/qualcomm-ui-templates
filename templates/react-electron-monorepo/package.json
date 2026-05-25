@@ -21,7 +21,8 @@
     "update-qui": "ncu --deep --filter '@qualcomm-ui/*' -u",
     "electron-app": "pnpm -C packages/electron-app",
     "react-app": "pnpm -C packages/react-app",
-    "shared-types": "pnpm -C packages/shared-types"
+    "shared-types": "pnpm -C packages/shared-types",
+    "update-dependencies": "ncu --cooldown 1d --target minor --deep -u"
   },
   "devDependencies": {
     "@eslint/js": "9.39.4",
@@ -35,6 +36,7 @@
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
     "globals": "16.5.0",
+    "npm-check-updates": "22.1.1",
     "prettier-plugin-tailwindcss": "0.8.0",
     "npm-run-all2": "8.0.4",
     "syncpack": "14.2.1",

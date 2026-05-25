@@ -8,7 +8,8 @@
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "lint": "eslint --quiet"
+    "lint": "eslint --quiet",
+    "update-dependencies": "ncu --cooldown 1d --target minor -u"
   },
   "dependencies": {
     "@qualcomm-ui/core": "^1.11.0",
@@ -41,6 +42,7 @@
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
     "globals": "16.5.0",
+    "npm-check-updates": "22.1.1",
     "prettier-plugin-tailwindcss": "0.8.0",
     "tailwindcss": "4.3.0",
     "typescript": "5.9.3",
