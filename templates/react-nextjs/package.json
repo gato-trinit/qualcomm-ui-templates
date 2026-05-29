@@ -11,11 +11,11 @@
     "update-dependencies": "ncu --cooldown 1d --target minor -u"
   },
   "dependencies": {
-    "@qualcomm-ui/core": "^1.11.0",
+    "@qualcomm-ui/core": "^1.11.1",
     "@qualcomm-ui/dom": "^1.1.2",
-    "@qualcomm-ui/qds-core": "^1.28.1",
-    "@qualcomm-ui/react": "^1.22.1",
-    "@qualcomm-ui/react-core": "^1.5.1",
+    "@qualcomm-ui/qds-core": "^1.28.2",
+    "@qualcomm-ui/react": "^1.22.2",
+    "@qualcomm-ui/react-core": "^1.5.2",
     "@qualcomm-ui/tailwind-plugin": "^1.7.1",
     "@qualcomm-ui/utils": "^1.3.0",
     "@tanstack/react-virtual": "3.13.25",
@@ -40,7 +40,7 @@
     "prettier-plugin-tailwindcss": "0.8.0",
     "tailwindcss": "4.3.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.49.0"
+    "typescript-eslint": "8.58.2"
   },
   "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215"
 }

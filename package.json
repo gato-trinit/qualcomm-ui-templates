@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "check-all": "ncu -c 1 --deep",
-    "update-all": "npm run check-all -u",
+    "update-all": "ncu -c 1 --deep -u",
     "check-qui": "ncu --deep --filter '@qualcomm-ui/*'",
-    "update-qui": "npm run check-qui -u",
+    "update-qui": "ncu --deep --filter '@qualcomm-ui/*' -u",
     "lint-dependencies": "syncpack lint --source 'templates/*/package.json' --source 'templates/*/packages/*/package.json'",
     "fix-dependencies": "syncpack fix --source 'templates/*/package.json' --source 'templates/*/packages/*/package.json'"
   },

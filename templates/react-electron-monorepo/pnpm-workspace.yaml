@@ -9,7 +9,7 @@ allowBuilds:
 minimumReleaseAge: 1440
 
 minimumReleaseAgeExclude:
-  - '@qualcomm-ui/eslint-config-mdx@3.0.0'
+  - '@qualcomm-ui/*'
 
 onlyBuiltDependencies:
   - electron

@@ -2,6 +2,9 @@ onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
 
+minimumReleaseAgeExclude:
+  - '@qualcomm-ui/*'
+
 minimumReleaseAge: 1440
 
 allowBuilds:

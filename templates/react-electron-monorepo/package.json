@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.39.4",
-    "@qualcomm-ui/eslint-config-mdx": "^3.0.0",
+    "@qualcomm-ui/eslint-config-mdx": "^3.0.1",
     "@qualcomm-ui/eslint-config-react": "^1.1.1",
     "@qualcomm-ui/eslint-config-typescript": "^2.0.0",
     "@qualcomm-ui/eslint-plugin-react": "^1.2.0",
@@ -43,7 +43,7 @@
     "tailwindcss": "4.3.0",
     "turbo": "2.9.14",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.49.0",
+    "typescript-eslint": "8.58.2",
     "vite": "8.0.14"
   },
   "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215"

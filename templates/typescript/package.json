@@ -38,7 +38,7 @@
     "shx": "0.4.0",
     "tsx": "4.22.3",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.49.0",
+    "typescript-eslint": "8.58.2",
     "vite": "8.0.14",
     "vite-tsconfig-paths": "6.1.1",
     "vitest": "4.1.7"
