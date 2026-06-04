@@ -44,10 +44,10 @@ Start only the React UI in the browser (no Tauri):
 pnpm dev:ui
 ```
 
-## Bundling
+## Build production app
 
 ```shell
-pnpm bundle
+tauri build
 ```
 
 Builds for Linux x64, MacOS, and Windows x64.

@@ -11,7 +11,6 @@
     "lint:cache": "eslint --quiet --cache",
     "test": "turbo run test --env-mode=loose",
     "test:ci": "turbo run test:ci --env-mode=loose",
-    "bundle": "run-s build package",
     "update-qui": "ncu --deep --filter '@qualcomm-ui/*' -u",
     "react-app": "pnpm -C packages/react-app",
     "update-dependencies": "ncu --cooldown 1d --target minor --deep -u"

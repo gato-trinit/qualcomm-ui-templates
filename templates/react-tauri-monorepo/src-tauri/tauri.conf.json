@@ -6,8 +6,8 @@
   "build": {
     "beforeDevCommand": "pnpm --filter @project/react-app dev:site",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "pnpm --filter @project/react-app build",
-    "frontendDist": "./packages/react-app/dist"
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../packages/react-app/dist"
   },
   "app": {
     "windows": [
