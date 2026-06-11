@@ -2,9 +2,9 @@
   "extends": "@qualcomm-ui/tsconfig/tsconfig.strict.json",
   "compilerOptions": {
     "composite": true,
-    "types": ["node"]
+    "tsBuildInfoFile": "node_modules/.tmp/.tsbuildinfo-node"
   },
   "include": [
-    "*.ts",
+    "*.ts"
   ]
 }

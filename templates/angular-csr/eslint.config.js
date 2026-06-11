@@ -37,9 +37,9 @@ export default defineConfig([
   // JS
   {
     extends: [
-      quiEslintTs.configs.base,
       quiEslintTs.configs.sortKeys,
       quiEslintTs.configs.styleGuide,
+      quiEslintTs.configs.namingConventions,
     ],
     files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
     languageOptions: {globals: globals.browser},
@@ -47,8 +47,7 @@ export default defineConfig([
   // TS
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
+      quiEslintTs.configs.recommended,
       quiEslintTs.configs.strictExports,
     ],
     files: ["**/*.{ts,tsx}"],
@@ -56,22 +55,12 @@ export default defineConfig([
   },
   // Angular
   {
-    extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
-      quiEslintAngular.configs.baseTypescript,
-      quiEslintAngular.configs.typescript,
-    ],
+    extends: [quiEslintAngular.configs.typescriptRecommended],
     files: ["src/**/*.ts"],
     languageOptions: tsLanguageOptions,
   },
   {
-    extends: [
-      quiEslintAngular.configs.baseTemplate,
-      quiEslintAngular.configs.templatePrettier,
-      quiEslintAngular.configs.templateAttributeOrder,
-      quiEslintAngular.configs.templateSelfClosingTags,
-    ],
+    extends: [quiEslintAngular.configs.templateRecommended],
     files: ["src/**/*.html"],
   },
 ])

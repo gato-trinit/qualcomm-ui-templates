@@ -2,15 +2,15 @@
   "extends": "@qualcomm-ui/tsconfig/tsconfig.strict.json",
   "compilerOptions": {
     "composite": true,
-    "baseUrl": "./",
     "moduleResolution": "bundler",
+    "rootDir": "./tests",
     "paths": {
       "~utils": [
         "./tests/utils/index.ts"
       ]
     }
   },
-  "include": ["./tests", "playwright.config.ts"],
+  "include": ["./tests"],
   "references": [
     {
       "path": "./tsconfig.lib.json"

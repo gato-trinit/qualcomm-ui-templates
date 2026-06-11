@@ -1,10 +1,11 @@
-import {defineConfig, globalIgnores} from "eslint/config"
 import nextVitals from "eslint-config-next/core-web-vitals"
 import nextTs from "eslint-config-next/typescript"
+import {defineConfig, globalIgnores} from "eslint/config"
 import * as tseslint from "typescript-eslint"
 
 import quiEslintReact from "@qualcomm-ui/eslint-config-react"
 import quiEslintTs from "@qualcomm-ui/eslint-config-typescript"
+import quiEslintPluginReact from "@qualcomm-ui/eslint-plugin-react"
 
 const tsLanguageOptions = {
   parser: tseslint.parser,
@@ -13,9 +14,18 @@ const tsLanguageOptions = {
   },
 }
 
+// the import plugin is already declared by Next.js configs, so we pull it out
+const [ogConfig] = quiEslintTs.configs.styleGuide
+const {
+  plugins: {import: _import, ...plugins},
+} = ogConfig
+
+const styleGuide = {
+  ...ogConfig,
+  plugins,
+}
+
 const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
@@ -29,17 +39,21 @@ const eslintConfig = defineConfig([
   // JS
   {
     extends: [
-      quiEslintTs.configs.base,
       quiEslintTs.configs.sortKeys,
       quiEslintTs.configs.styleGuide,
+      quiEslintTs.configs.namingConventions,
     ],
-    files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
+    files: ["**/*.{js,mjs,cjs}"],
   },
   // TS
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
+      nextVitals,
+      nextTs,
+      styleGuide,
+      quiEslintTs.configs.sortKeys,
+      quiEslintTs.configs.namingConventions,
+      quiEslintTs.configs.typeChecks,
       quiEslintTs.configs.strictExports,
     ],
     files: ["**/*.{ts,tsx}"],
@@ -47,12 +61,7 @@ const eslintConfig = defineConfig([
   },
   // React
   {
-    extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
-      quiEslintReact.configs.base,
-      quiEslintReact.configs.recommended,
-    ],
+    extends: [quiEslintReact.configs.recommended, quiEslintPluginReact.config],
     files: ["**/*.{ts,tsx}"],
     languageOptions: tsLanguageOptions,
   },

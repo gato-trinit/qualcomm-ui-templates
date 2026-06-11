@@ -1,13 +1,13 @@
 {
-  "version": "0.0.1",
   "name": "@project/electron-app",
-  "description": "Electron Template using go/qui-react React components",
+  "version": "0.0.1",
   "private": true,
+  "description": "Electron Template using go/qui-react React components",
+  "homepage": "",
+  "author": "Qualcomm",
   "type": "module",
   "main": "dist/main.cjs",
   "types": "dist/index.d.ts",
-  "author": "Qualcomm",
-  "homepage": "",
   "scripts": {
     "clean": "shx rm -rf dist out",
     "compile": "node --import=tsx scripts/build.ts --mode production",
@@ -17,7 +17,7 @@
     "watch:js": "cross-env DEV=1 node --import=tsx ./scripts/build.ts --mode development --watch",
     "watch:types": "tsc -b tsconfig.lib.json --force -w --preserveWatchOutput",
     "package": "electron-builder --dir --config electron-builder.config.ts",
-    "lint": "eslint",
+    "lint": "eslint --quiet",
     "test": "cross-env DEBUG=pw:browser* playwright test",
     "test:ci": "cross-env IS_CI=true DISPLAY=:99 xvfb-run --auto-servernum -- playwright test",
     "typecheck": "tsc -b tsconfig.lib.json --force"
@@ -25,7 +25,7 @@
   "dependencies": {
     "@project/react-app": "workspace:*",
     "@project/shared-types": "workspace:*",
-    "@qualcomm-ui/tsconfig": "^2.0.0",
+    "@qualcomm-ui/tsconfig": "^2.1.1",
     "electron-store": "11.0.2"
   },
   "devDependencies": {

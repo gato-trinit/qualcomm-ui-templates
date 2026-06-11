@@ -1,11 +1,10 @@
 {
-  "extends": "@qualcomm-ui/tsconfig/tsconfig.strict.json",
+  "extends": "@qualcomm-ui/tsconfig/tsconfig.angular-lib.json",
   "compilerOptions": {
     "composite": true,
     "outDir": "build",
     "rootDir": "./src",
-    "emitDeclarationOnly": false,
-    "tsBuildInfoFile": "build/.tsbuildinfo"
+    "tsBuildInfoFile": "build/.tmp/.tsbuildinfo-lib"
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

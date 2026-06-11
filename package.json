@@ -1,7 +1,7 @@
 {
   "name": "qui-templates",
-  "private": true,
   "version": "0.0.1",
+  "private": true,
   "type": "module",
   "scripts": {
     "check-all": "ncu -c 1 --deep",

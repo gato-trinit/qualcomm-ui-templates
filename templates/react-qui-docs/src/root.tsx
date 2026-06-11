@@ -1,5 +1,3 @@
-import "./app.css"
-
 import {type ReactNode, useEffect, useMemo, useState} from "react"
 
 import {
@@ -29,6 +27,8 @@ import {
 
 import {MdxLayout} from "./layout"
 import {qdsThemeCookie} from "./sessions.server"
+
+import "./app.css"
 
 export const links: LinksFunction = () => [
   {href: "https://fonts.googleapis.com", rel: "preconnect"},

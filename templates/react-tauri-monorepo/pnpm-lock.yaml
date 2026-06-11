@@ -12,20 +12,23 @@ importers:
         specifier: 9.39.4
         version: 9.39.4
       '@qualcomm-ui/eslint-config-mdx':
-        specifier: ^3.0.1
-        version: 3.0.1(eslint-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.51.0)(remark-frontmatter@5.0.0)(remark-lint-fenced-code-flag@4.2.0)(remark-lint-final-newline@3.0.1)(remark-lint-heading-increment@4.0.1)(remark-lint-list-item-content-indent@4.0.1)(remark-lint-list-item-indent@4.0.1)(remark-lint-maximum-heading-length@4.1.1)(remark-lint-no-consecutive-blank-lines@5.0.1)(remark-lint-no-duplicate-headings-in-section@4.0.1)(remark-lint-no-heading-punctuation@4.0.1)(remark-lint-unordered-list-marker-style@4.0.1)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)(unified@11.0.5)
+        specifier: ^3.0.3
+        version: 3.0.3(eslint-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.54.0)(remark-frontmatter@5.0.0)(remark-lint-fenced-code-flag@4.2.0)(remark-lint-final-newline@3.0.1)(remark-lint-heading-increment@4.0.1)(remark-lint-list-item-content-indent@4.0.1)(remark-lint-list-item-indent@4.0.1)(remark-lint-maximum-heading-length@4.1.1)(remark-lint-no-consecutive-blank-lines@5.0.1)(remark-lint-no-duplicate-headings-in-section@4.0.1)(remark-lint-no-heading-punctuation@4.0.1)(remark-lint-unordered-list-marker-style@4.0.1)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)(unified@11.0.5)
       '@qualcomm-ui/eslint-config-react':
-        specifier: ^1.1.1
-        version: 1.1.1(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3))(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0)(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)
       '@qualcomm-ui/eslint-config-typescript':
-        specifier: ^2.0.0
-        version: 2.0.0(1671e8f0338745c04a475587e0aeb6eb)
+        specifier: ^3.0.0
+        version: 3.0.0(e0bad9026aabf403c4d551642f424f8d)
       '@qualcomm-ui/eslint-plugin-react':
-        specifier: ^1.2.0
-        version: 1.2.0(eslint@9.39.4(jiti@2.7.0))
+        specifier: ^1.2.2
+        version: 1.2.2(eslint@9.39.4(jiti@2.7.0))
+      '@qualcomm-ui/oxfmt-config':
+        specifier: ^1.0.1
+        version: 1.0.1(oxfmt@0.54.0)
       '@qualcomm-ui/tsconfig':
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@5.9.3)
+        specifier: ^2.1.1
+        version: 2.1.1(typescript@5.9.3)
       '@tauri-apps/cli':
         specifier: 2.11.2
         version: 2.11.2
@@ -50,12 +53,12 @@ importers:
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
-      prettier-plugin-tailwindcss:
-        specifier: 0.8.0
-        version: 0.8.0(prettier@3.8.3)
+      oxfmt:
+        specifier: ^0.54.0
+        version: 0.54.0
       syncpack:
-        specifier: 14.2.1
-        version: 14.2.1
+        specifier: 15.3.1
+        version: 15.3.1
       tailwindcss:
         specifier: 4.3.0
         version: 4.3.0
@@ -75,26 +78,26 @@ importers:
   packages/react-app:
     dependencies:
       '@qualcomm-ui/core':
-        specifier: ^1.11.1
-        version: 1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
+        specifier: ^1.11.5
+        version: 1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
       '@qualcomm-ui/dom':
-        specifier: ^1.1.2
-        version: 1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0)
+        specifier: ^1.1.4
+        version: 1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2)
       '@qualcomm-ui/qds-core':
-        specifier: ^1.28.2
-        version: 1.28.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
+        specifier: ^1.29.3
+        version: 1.29.3(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
       '@qualcomm-ui/react':
-        specifier: ^1.22.2
-        version: 1.22.2(fb21ecd045f82985d1a19fd6a0502795)
+        specifier: ^1.24.4
+        version: 1.24.4(6b7e4110222f9865d24a8bc8af28471c)
       '@qualcomm-ui/react-core':
-        specifier: ^1.5.2
-        version: 1.5.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        specifier: ^1.5.7
+        version: 1.5.7(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@qualcomm-ui/tailwind-plugin':
-        specifier: ^1.7.1
-        version: 1.7.1(tailwindcss@4.3.0)
+        specifier: ^1.7.4
+        version: 1.7.4(tailwindcss@4.3.0)
       '@qualcomm-ui/utils':
-        specifier: ^1.3.0
-        version: 1.3.0
+        specifier: ^1.3.2
+        version: 1.3.2
       '@tanstack/react-virtual':
         specifier: 3.13.25
         version: 3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
@@ -115,8 +118,8 @@ importers:
         version: 7.15.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
     devDependencies:
       '@qualcomm-ui/tsconfig':
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@5.9.3)
+        specifier: ^2.1.1
+        version: 2.1.1(typescript@5.9.3)
       '@tailwindcss/vite':
         specifier: 4.3.0
         version: 4.3.0(vite@8.0.14(@types/node@24.12.4)(jiti@2.7.0)(yaml@2.9.0))
@@ -369,127 +372,134 @@ packages:
     resolution: {integrity: sha512-xhfYPXoV5Dy4UkY0D+v2KkwvnDfiA/8Mt3sWCGI/hM03NsYIH8ZaG6QzS9x7pje5vHZBZJ2v6VRFVTWACnqcmQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
+  '@ntnyq/utils@0.13.3':
+    resolution: {integrity: sha512-mNpt2Y4n/sWo+Avbw2+h7i+uFxkqIKpYnALIzuyXF2bfCsPW0ZOvuhk392VslzMsDnL1Ci7MpfiVTngwQGhq1Q==}
+    engines: {node: ^22.13.0 || >=24}
+
+  '@one-ini/wasm@0.2.1':
+    resolution: {integrity: sha512-TUqERXGNTifZ9y2g3wPxQrw3HpHv/02DsW3D90T9x0hhonrL1ZqpSmNrU2XkoIq0fP1N6gZfVQzy2Fw1ZvGBNg==}
+
   '@oxc-project/types@0.132.0':
     resolution: {integrity: sha512-FESMOxil5Se014ui/Eq8fT5uHJo6nIRwH0PfJrZJXs6Gek3ZVFOrpUv3YIZT20m+extU98Hg1Ym72U58rlsxUQ==}
 
-  '@oxfmt/binding-android-arm-eabi@0.51.0':
-    resolution: {integrity: sha512-Ni0sCqg5CIHaLIYFGj+ncbcumylvNC6FE4rfD0KfdmnWHbPJ+zev0qZCXKxy2hFVa0fYRK0yPzf5nzPbkZou7g==}
+  '@oxfmt/binding-android-arm-eabi@0.54.0':
+    resolution: {integrity: sha512-NAtpl/SiaeU103e7/OmZw0MvUnsUUopW7hEm/ecegJg7YM0skQaA0IXEZoyTV6NUdiNPupdIUreRqUZTShbn/g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [android]
 
-  '@oxfmt/binding-android-arm64@0.51.0':
-    resolution: {integrity: sha512-eu5lAZjuo0KAkp+M24EhDqfOwA8owQ8d7wyBlOUUGRbDLHpU3IRlDHp8Dif+YqGlxs6jra7yS6WQu/NkPhAxeg==}
+  '@oxfmt/binding-android-arm64@0.54.0':
+    resolution: {integrity: sha512-B4VZfBUlKK1rmMChsssNZbkZjE8+FzG3avMjGgMDwbGxXRoXkoeXiAZ+78Oa+eyDPHvDCiUb4zH/vmCOUSafLQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@oxfmt/binding-darwin-arm64@0.51.0':
-    resolution: {integrity: sha512-6LsUNIdURhhcIfIn8+xsOb61mSTa9msAHTeSGx9Jf4rsP/gN8PGCF+SKWPAQZbND2w/WBkqQ6303jqEEIXzMdQ==}
+  '@oxfmt/binding-darwin-arm64@0.54.0':
+    resolution: {integrity: sha512-i02vF75b+ePsQP3tHqSxVYI5S6b8X/xqdPu7/mDHXtpgXLTYXi3jJmfHU0j+dnZZDKaYTx/ioCK7QYJmtiJR2g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxfmt/binding-darwin-x64@0.51.0':
-    resolution: {integrity: sha512-9aUMGmVxdHjYMsEAW1tNRoieTJXlVNDFkRvIR1J7LttJXWjVYCu2ekclLij2KJtxBxSQOYSHd12ME/adVGVbZg==}
+  '@oxfmt/binding-darwin-x64@0.54.0':
+    resolution: {integrity: sha512-8VMFvGvooXj7mswkbrhdVZ2/sgiDaBzWpkkbtO+qGDLV4EfJd67nQadHkQC0ZNbaWA9ajXfqI6i7PZLIeDzxEQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@oxfmt/binding-freebsd-x64@0.51.0':
-    resolution: {integrity: sha512-mkY1nhZTqYb+NHaAWxOCKISN6FwdrwMNsu17vTUA3wzUV2VJ+Paq15ZokRcsMU/2PUdHO73prxyeJpjXQ3MPpQ==}
+  '@oxfmt/binding-freebsd-x64@0.54.0':
+    resolution: {integrity: sha512-0cRHnp43WN1Jrc5s0BdbdKgR1XirdvHy7TAFi3JEsoEVQVJxTXMbpVd76sxXlgRswNMDhVFSJw+y7Eb8mEavFQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxfmt/binding-linux-arm-gnueabihf@0.51.0':
-    resolution: {integrity: sha512-wtFwNwE4+YCNuPaWoGDZeGsKvD6D1YSUNBJNn/rJBh7CrDBThFE+TBI5kY7vRW9rIOQRsbW2IpyyL3Du4Zqwiw==}
+  '@oxfmt/binding-linux-arm-gnueabihf@0.54.0':
+    resolution: {integrity: sha512-JyQAk3hK/OEtup7Rw6kZwfdzbKqTVD5jXXb8Xpfay29suwZyfBDMVW/bj4RqEPySYWc6zCp198pOluf8n5uYzg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxfmt/binding-linux-arm-musleabihf@0.51.0':
-    resolution: {integrity: sha512-rnOaNx86G7iRKM6lsCIQMux0SMGNC/TEbFR+r7lpruJ12bnrIWgxd5w1PLqOvgR9r8ZJbpK/zfRKctJnh8/Jfg==}
+  '@oxfmt/binding-linux-arm-musleabihf@0.54.0':
+    resolution: {integrity: sha512-qnvLatTpM8vtvjOfcckBOzJjk+n6ce/wwpP8OFeUrD5aNLYcKyWAitwj+Rk3PK9jGanbZvKsJnv14JGQ6XqFdw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxfmt/binding-linux-arm64-gnu@0.51.0':
-    resolution: {integrity: sha512-jOgDzSqWcICGRjsp4mc08FxKMN8vzP2Kgs4E0d2HUP99F+nJDQKklRV4Zuj+0gcBgjrzx2CbpqaIdUVPepCojA==}
+  '@oxfmt/binding-linux-arm64-gnu@0.54.0':
+    resolution: {integrity: sha512-SMkhnCzIYZYDk9vw3W/80eeYKmrMpGF0Giuxt4HruFlCH7jEtnPeb3SdQKMfgYi/dgtaf+hZAb5XWPYnxqCQ3w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@oxfmt/binding-linux-arm64-musl@0.51.0':
-    resolution: {integrity: sha512-KBUCdrH5bwVrAvI9gU/1S55oH6fzXjr++J/oVocdu7bYTks1l7DNNT+rLd/1TDdAEjObGwmfWamn7LC1m8A0DQ==}
+  '@oxfmt/binding-linux-arm64-musl@0.54.0':
+    resolution: {integrity: sha512-QrwJlBFFKnxOd95TAaszpMbZBLzMoYMpGaQTZF8oibacnF5rv8l12IhILhQRPmksWiBqg0YSe2Mnl7ayeJAHSA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@oxfmt/binding-linux-ppc64-gnu@0.51.0':
-    resolution: {integrity: sha512-NapfjYsABFqTJ1Dn9Efq6sN5esaHconVKwVLbDGNQLrwpOx/g17mkwErHzU72PutL67nf3wNAkbq122H+zLxag==}
+  '@oxfmt/binding-linux-ppc64-gnu@0.54.0':
+    resolution: {integrity: sha512-WILatiol/TUHTlhod7R09+7Az/XlhKwmY1MHfLZNmewltPWNN/EwxP2rQSHahibZ/cB8gmckEBjBOByD+5bYsQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@oxfmt/binding-linux-riscv64-gnu@0.51.0':
-    resolution: {integrity: sha512-5dlDt1dUZCVi6elIhiK1PWg9wpTzTcIuj0IZnSurvIoMrhOWqqTcc1dSTxcSkNaBZhfsNqRZdINI1zAgbKkJNQ==}
+  '@oxfmt/binding-linux-riscv64-gnu@0.54.0':
+    resolution: {integrity: sha512-f05YMG4BH4G8S4ME6UM6fi1MnJ9094mrnvO5Pa4SJlMfWlUM+1/ZWMEF4NnjM7shZAvbHsHRuVYpUo0PHC4P9Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@oxfmt/binding-linux-riscv64-musl@0.51.0':
-    resolution: {integrity: sha512-pgdWUJn0S5nulyiVdlFV8DzCUnGXkU99W5PSkkmbaZW+LrZBPxpezun4G0DDHbQaVYuJeCuKsXsGKGo77CkUTQ==}
+  '@oxfmt/binding-linux-riscv64-musl@0.54.0':
+    resolution: {integrity: sha512-UfL+2hj1ClNqcCRT9s8vBU4axDpjxgVxX96G+9DYAYjoc5b0u15CJtn2jgsi9iM+EbGNc5CW1HVRgwVu76UsSA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@oxfmt/binding-linux-s390x-gnu@0.51.0':
-    resolution: {integrity: sha512-2XTFUe97CbDGAI8vjwDfZ1HdakO0XIADyJ24idEg64SC4/K4in/OisXVnrW4NMK7I6TgC7EqRhC0Ln/nKhAemA==}
+  '@oxfmt/binding-linux-s390x-gnu@0.54.0':
+    resolution: {integrity: sha512-3/XZe931Hka+J6NjnaqJzYpsWWxDTuRdUdwSQHnOuJEgbC+SehIMFJS8hsEjV7LBhVSL2OCnRLvbVW8O97XIyw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@oxfmt/binding-linux-x64-gnu@0.51.0':
-    resolution: {integrity: sha512-kQ1OuCqqt/yyf0ZN9VFxW1/JnlgJgii3Dr7pWf9vNBvrX1hv6g39/+mc5oGRHRGJFZtl3zsGDWR9c5N2B/gwBw==}
+  '@oxfmt/binding-linux-x64-gnu@0.54.0':
+    resolution: {integrity: sha512-Ik93RlObtu43GbxApafayFjwYE06L6Xr08cSwpBPYbDrLp2ReZx0Jm1DqwRyYRnukUJy+rK2WaEvUQOxdytU9Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@oxfmt/binding-linux-x64-musl@0.51.0':
-    resolution: {integrity: sha512-ARTYqxHF475o96Gbn41hvSWSSRygPlRDXZZgZ9I2scU1y0qiWpCQyZCoefaQa0mwv+wwtZ+luS4YOzsRzM/izg==}
+  '@oxfmt/binding-linux-x64-musl@0.54.0':
+    resolution: {integrity: sha512-yZcakmPlD86CNymknd7KfW+FH+qfbqJH+i0h69CYfV1+KMoVeM9UED+8+TDVoU4haxI0NxY7RPCvRLy3Sqd2Qg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@oxfmt/binding-openharmony-arm64@0.51.0':
-    resolution: {integrity: sha512-QiC1XrCl6a6BmqMzduO8hdIRMf1m44hCkt2Q68KWkTvUB/E7fd2iomyNh6KnnRca5w6eBrRAAtLFqTh+xjsjJA==}
+  '@oxfmt/binding-openharmony-arm64@0.54.0':
+    resolution: {integrity: sha512-GiVBZNnEZnKu00f1jTg49nomv187d0GQX+O+ocykoLeiaALuEO+swoTehHn9TehTfi7V8H0i0e/yvUjCqnwk1w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@oxfmt/binding-win32-arm64-msvc@0.51.0':
-    resolution: {integrity: sha512-NC/hJb9dtU23Zf8L7IVK95xnFjiQ7AfcLO2l5pb69TDEr958qxrtnB2CveeeNSCBFNIkgaTCfd/vHNSoG78l9g==}
+  '@oxfmt/binding-win32-arm64-msvc@0.54.0':
+    resolution: {integrity: sha512-J0SSB8Z1Fre2sxRolYcW6Rl1RQmKdQ2hnHyq4YJrfBRiXTObLw4DXnIVraM/UyqGqwOi7yTrQA4VT7DPxlHVKA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@oxfmt/binding-win32-ia32-msvc@0.51.0':
-    resolution: {integrity: sha512-2C45za4Rj36n8YIbhRL1PQbxmXJYf81WEcAgvj5I4ptRROG+A+81hREEN5bmCHADE1UfYaN312U6tkILoZZy6w==}
+  '@oxfmt/binding-win32-ia32-msvc@0.54.0':
+    resolution: {integrity: sha512-O61UDVj8zz6yXJjkHPf05VaMLOXmEF8P5kf/N0W7AQMmd6bcQogl+KJc7rMutKTL524oE9iH32JXZClBFmEQIg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@oxfmt/binding-win32-x64-msvc@0.51.0':
-    resolution: {integrity: sha512-73RqdAuVKQTkjZIDw08JaDHUM4lav5Qu+CaPwg4QbbA7k8o7LEW0p3UsfZ/F8dsO/pwVYh3RzFcanwLRTTahbQ==}
+  '@oxfmt/binding-win32-x64-msvc@0.54.0':
+    resolution: {integrity: sha512-1MDpqJPiFqxWtIHas8vkb1VZ7f7eKyTffAwmO8isxQYMaG1OFKsH666BWLeXQLO+IWNfiMssLD55hbR1lIPTqg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
@@ -498,25 +508,25 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@pkgr/core@0.2.9':
-    resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
-    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+  '@pkgr/core@0.3.6':
+    resolution: {integrity: sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
 
-  '@qualcomm-ui/core@1.11.1':
-    resolution: {integrity: sha512-HvKL5qLaN2DV9BbGuP6IeTeW6bkqvD4k9ykfDDadCGQeRtR7zdwfv8Rq4Qt16wOcTC9i9EbVLfEhnjyvI4YGTQ==}
+  '@qualcomm-ui/core@1.11.5':
+    resolution: {integrity: sha512-zSNGbOHJ5pcQ+ebRuHGwTY/l3PVvrSlWpbsP53ai97CdUOuk+Jo6zBSX8LUY4U8Ac1cFM6apDwVs2H/GSVUUmw==}
     peerDependencies:
       '@internationalized/number': '>=3.6.4'
-      '@qualcomm-ui/dom': ^1.1.2
-      '@qualcomm-ui/utils': ^1.3.0
+      '@qualcomm-ui/dom': ^1.1.4
+      '@qualcomm-ui/utils': ^1.3.2
 
-  '@qualcomm-ui/dom@1.1.2':
-    resolution: {integrity: sha512-mGoafzP0lmj5royhjYTZjhXczbrV8XcopJ5NalMk/E6J9GB4xFzN2EsfUUTvCWufl8aDKzNZ339ujYRpyDV/bw==}
+  '@qualcomm-ui/dom@1.1.4':
+    resolution: {integrity: sha512-sSecsIYmJPCnHi1h4KD71nHr6KOkjXcqycUs9NSA4B2y1e8cJVEuObJj00Mlval9CD/rLbKtJ7phdeSj0C9U6g==}
     peerDependencies:
       '@floating-ui/dom': '>=1.7.0'
-      '@qualcomm-ui/utils': ^1.3.0
+      '@qualcomm-ui/utils': ^1.3.2
 
-  '@qualcomm-ui/eslint-config-mdx@3.0.1':
-    resolution: {integrity: sha512-alm3S6ycIrYR8WVPn59U6hv1NBDIl/3fjRLEMsV0df+y3mDhQYc8X6rrl1lBSXs7I8O5iZYl29Wd7ZUXaum64Q==}
+  '@qualcomm-ui/eslint-config-mdx@3.0.3':
+    resolution: {integrity: sha512-FgIXXvfEKeKQnGEvJdQQmOSm8FEF799adXsYKQWPztbSVOAhI48qZAqTuNnfRtBenzsPhSv/fw9WakAfeHB8NA==}
     peerDependencies:
       eslint: '>=9.37.0'
       eslint-mdx: '>=3.7.0'
@@ -538,86 +548,90 @@ packages:
       typescript-eslint: '>=8.31.1'
       unified: '>=11'
 
-  '@qualcomm-ui/eslint-config-react@1.1.1':
-    resolution: {integrity: sha512-V5nH/jIG4bPpAJkpnNvrPkH3ZJGhh5HFxEhmmEQwqRHA6pKeSC/n1q9GoTeP2X3z1y9Kv+W6kMl9xiVDhzv7PQ==}
+  '@qualcomm-ui/eslint-config-react@2.0.0':
+    resolution: {integrity: sha512-NDI+oD5MfjntIt3roRorTwHRmOo087dYC+RIe60mccv0vnvoJvKHpBEnZoqR8O9CKTz8Now5GKQaVPy4RRw2PA==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>=8.31.1'
       '@typescript-eslint/parser': '>=8.31.1'
       eslint: '>=9.37.0'
       eslint-plugin-import: '>=2.31.0'
-      eslint-plugin-prettier: '>=5.4.0'
       eslint-plugin-react: '>=7.37.5'
-      eslint-plugin-react-hooks: '>=6.1.1'
-      prettier: '>=3.5.3'
+      eslint-plugin-react-hooks: '>=7.1.1'
       typescript: '>=5.0.0'
       typescript-eslint: '>=8.31.1'
 
-  '@qualcomm-ui/eslint-config-typescript@2.0.0':
-    resolution: {integrity: sha512-7kXJF/PAS6i+P7dzDG/Qij28XW/Nl1emdk/VvFRjJRXJeZEliZgQ3rox5715Yfs8U7CFXiTbrSlJe7UeynYldg==}
+  '@qualcomm-ui/eslint-config-typescript@3.0.0':
+    resolution: {integrity: sha512-+N3TZvmOliyObYdkmFd7YJ8403hjjV1dX/wgpjPl3GqNYfeVRPeslUBF6BJIrh+NWhs1qkUwBIlOUZtah4C2RQ==}
     peerDependencies:
       '@eslint/js': '>=9.37.0'
       '@stylistic/eslint-plugin': '>=5.2.0'
       '@typescript-eslint/eslint-plugin': '>=8.31.1'
       '@typescript-eslint/parser': '>=8.31.1'
       eslint: '>=9.37.0'
-      eslint-config-prettier: '>=10.1.2'
       eslint-import-resolver-typescript: '>=4.3.4'
       eslint-plugin-comment-length: '>=2.2.1'
       eslint-plugin-import: '>=2.31.0'
       eslint-plugin-jsdoc: '>=50.6.11'
+      eslint-plugin-oxfmt: '>=0.9.0'
       eslint-plugin-perfectionist: '>=4.12.3'
-      eslint-plugin-prettier: '>=5.2.6'
+      eslint-plugin-promise: '>=7.2.1'
+      eslint-plugin-unicorn: '>=65.0.1'
       eslint-plugin-unused-imports: '>=4.1.4'
-      prettier: '>=3.5.3'
+      oxfmt: '>=0.54.0'
       typescript: '>=5.7.3'
       typescript-eslint: '>=8.31.1'
 
-  '@qualcomm-ui/eslint-plugin-react@1.2.0':
-    resolution: {integrity: sha512-Q5HvjUhaXfoVMscV5WGOYRR2jfLU2FhubnBcxr7PZOBgDq85JTzOSLgeClQzifoGUjUslSFt6DiTmN76ZgnsFQ==}
+  '@qualcomm-ui/eslint-plugin-react@1.2.2':
+    resolution: {integrity: sha512-4sYW6pODzsZMM91JuAm+7tGU2A51CI4uAXLQ2LRfkQZbZ2KF4KftuBxZT5GoY7+6b1KiYwcC7AEbPm6dZOdnIQ==}
     peerDependencies:
       eslint: ^9.0.0
 
-  '@qualcomm-ui/qds-core@1.28.2':
-    resolution: {integrity: sha512-yj/0Nvht+46tZPUAzNXcBUJ3rSarjTRreId2RFIOf1cyDgRBdc5txrF8WugCHeGR+YGEDLJRMOv0qw0S7cczmw==}
+  '@qualcomm-ui/oxfmt-config@1.0.1':
+    resolution: {integrity: sha512-X+/6B6RzoRFet9nRNlkyRb3fKDySKfojyXVWxSEbl3R80VbXJTS25JqgrRevgDlFleAQB+FiuKhnVeq5L1726Q==}
     peerDependencies:
-      '@qualcomm-ui/core': ^1.11.1
-      '@qualcomm-ui/utils': ^1.3.0
+      oxfmt: '>=0.51.0'
 
-  '@qualcomm-ui/react-core@1.5.2':
-    resolution: {integrity: sha512-3HxqMCAZiHN8lncZGUskYiqxNNTmGWE7iDVJ8k5G9H25SHT8ZB/UcnehY7dnfDipDg0Eazh0TWsElt4kGFJnmA==}
+  '@qualcomm-ui/qds-core@1.29.3':
+    resolution: {integrity: sha512-lcACuJPE4vNP5Oi28/4OUFqNiLP7Bfg4wFKJI1aBQsNEuQ/M6sjKenrnH1aSMnvdWusDkCktZMn49yLKSF5b0w==}
     peerDependencies:
-      '@qualcomm-ui/core': ^1.11.1
-      '@qualcomm-ui/dom': ^1.1.2
-      '@qualcomm-ui/utils': ^1.3.0
+      '@qualcomm-ui/core': ^1.11.5
+      '@qualcomm-ui/utils': ^1.3.2
+
+  '@qualcomm-ui/react-core@1.5.7':
+    resolution: {integrity: sha512-BHZ4dpIMaXBlp2uQSV5Kj1I+/F9qKUCGOCNFdRxFgGZYSK4CxqBU4wzJuCFM/NFFZ8rcQQhamHtX85ulc9cQhg==}
+    peerDependencies:
+      '@qualcomm-ui/core': ^1.11.5
+      '@qualcomm-ui/dom': ^1.1.4
+      '@qualcomm-ui/utils': ^1.3.2
       '@tanstack/react-virtual': '>=3.13.9'
       lucide-react: '>=0.483.0 <2'
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@qualcomm-ui/react@1.22.2':
-    resolution: {integrity: sha512-RNJmBzTuRuPv6F+BQ4jfYClXObkF+/c0LIoaqCWXce3oeMfPIDlcy4ahBT92kr6gNRtuQWDxRhhy3iuYH75aXw==}
+  '@qualcomm-ui/react@1.24.4':
+    resolution: {integrity: sha512-BqrYmUQQH8MdZp6ZPq0YzjUJjQW/8hAjDiDyeuz7bSQK/AEd298C/kmngGTg9ELhJsbrbUknPZlQFNwtKSoLlw==}
     peerDependencies:
-      '@qualcomm-ui/core': ^1.11.1
-      '@qualcomm-ui/qds-core': ^1.28.2
-      '@qualcomm-ui/react-core': ^1.5.2
-      '@qualcomm-ui/utils': ^1.3.0
+      '@qualcomm-ui/core': ^1.11.5
+      '@qualcomm-ui/qds-core': ^1.29.3
+      '@qualcomm-ui/react-core': ^1.5.7
+      '@qualcomm-ui/utils': ^1.3.2
       '@tanstack/react-virtual': '>=3.13.9'
       lucide-react: '>=0.483.0 <2'
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@qualcomm-ui/tailwind-plugin@1.7.1':
-    resolution: {integrity: sha512-0fv1miwV7qxtFiHxuQYNCO1xfSdd9VXeZZR668OxZy34j235IlQESIHSQbTBN/rx+Ki6J4tGlXLD8GvrlqfMYA==}
+  '@qualcomm-ui/tailwind-plugin@1.7.4':
+    resolution: {integrity: sha512-oUgR1uDegHM9t/BlLxii4pOeA538tn6kQiTgD+CyJyLrdz3vxP9iw/sbcEbH61ubWOYl6kS9cZWJ1h7cbug2nA==}
     peerDependencies:
       tailwindcss: '>=4'
 
-  '@qualcomm-ui/tsconfig@2.0.0':
-    resolution: {integrity: sha512-bUyB40c6qj6thE6dnFChd02jJjYsMUou5Et+dssOMCrZVAOAt+V80HdY9U1+GfXpwUJyUDOClIfRcGG3qhj3NA==}
+  '@qualcomm-ui/tsconfig@2.1.1':
+    resolution: {integrity: sha512-QxVneTedYIVuH37hHRUYOTYhK6kZM8eP7tNrmDjOX6sYMdIQUxklGQayIM5B5lvLHuQ/27eQ9Te6j+MLm/VaKw==}
     peerDependencies:
       typescript: '>=5.7.3'
 
-  '@qualcomm-ui/utils@1.3.0':
-    resolution: {integrity: sha512-eAPN1ICFk5QBmm6Vm+r+You80zOmfDWc3rTxoJW0HuSI8XihMoHXlS248ftIFDqnkYUoEUTH3KpBm/UPdD4B+Q==}
+  '@qualcomm-ui/utils@1.3.2':
+    resolution: {integrity: sha512-4nTy0PqSt2QoDf34LqoFB0RFKbwxeWW52IJV/yS/XI5R2M2xHcODeyk4ZjRSsTOKDt7pNJ6a/Jb7g8rh7Ptt4w==}
 
   '@rolldown/binding-android-arm64@1.0.2':
     resolution: {integrity: sha512-ZS4D1JPGn/MYQN/SYDWftIE/nVsM8j/AFOYEzAoOE2O3NktQOZru+/vYXGbR/qtdLdIfGCP0lcoJiYVzsEz+iQ==}
@@ -1357,6 +1371,10 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
+  builtin-modules@5.2.0:
+    resolution: {integrity: sha512-02yxLeyxF4dNl6SlY6/5HfRSrSdZ/sCPoxy2kZNP5dZZX8LSAD9aE2gtJIUgWrsQTiMPl3mxESyrobSwvRGisQ==}
+    engines: {node: '>=18.20'}
+
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
     engines: {node: '>= 0.4'}
@@ -1383,6 +1401,9 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
+  change-case@5.4.4:
+    resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
+
   character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
 
@@ -1406,6 +1427,10 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
+  commander@14.0.3:
+    resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
+    engines: {node: '>=20'}
+
   comment-parser@1.4.6:
     resolution: {integrity: sha512-ObxuY6vnbWTN6Od72xfwN9DbzC7Y2vv8u1Soi9ahRKL37gb6y1qk6/dgjs+3JWuXJHWvsg3BXIwzd/rkmAwavg==}
     engines: {node: '>= 12.0.0'}
@@ -1423,6 +1448,9 @@ packages:
   cookie@1.1.1:
     resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
     engines: {node: '>=18'}
+
+  core-js-compat@3.49.0:
+    resolution: {integrity: sha512-VQXt1jr9cBz03b331DFDCCP90b3fanciLkgiOoy8SBHy06gNf+vQ1A3WFLqG7I8TipYIKeYK9wxd0tUrvHcOZA==}
 
   cross-spawn@6.0.6:
     resolution: {integrity: sha512-VqCUuhcd1iB+dsv8gxPttb5iZh/D0iubSP21g36KXdEuf6I5JiioesUVjpCdHV9MZRUfVFlvwtIUyPfxo5trtw==}
@@ -1482,6 +1510,10 @@ packages:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
 
+  detect-indent@7.0.2:
+    resolution: {integrity: sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==}
+    engines: {node: '>=12.20'}
+
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
@@ -1499,6 +1531,11 @@ packages:
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
+
+  editorconfig@3.0.2:
+    resolution: {integrity: sha512-T0ix8GhtxyKVfUFEcvdNDt3YGqlwkFHbD4/5bgFUDgFmxhI/cSRAeJ87/Sz//Cq8Eam6JX/e23RkoFO71P7aAA==}
+    engines: {node: '>=20'}
+    hasBin: true
 
   electron-to-chromium@1.5.361:
     resolution: {integrity: sha512-Q6Hts7N9FnJc5LeGRINFvLhCI9xZmNtTDe5ZbcVezQz7cU4a8Aua3GH1b8J2XY8Al9PF+OCwYqhgsOOheMdvkA==}
@@ -1568,12 +1605,6 @@ packages:
   escape-string-regexp@5.0.0:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
-
-  eslint-config-prettier@10.1.8:
-    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
 
   eslint-import-context@0.1.9:
     resolution: {integrity: sha512-K9Hb+yRaGAGUbwjhFNHvSmmkZs9+zbuoe3kFQ4V1wYjrepUFYM2dZAfNtjbbj3qsPfUfsA68Bx/ICWQMi+C8Eg==}
@@ -1658,25 +1689,28 @@ packages:
     peerDependencies:
       eslint: '>=8.0.0'
 
+  eslint-plugin-oxfmt@0.9.0:
+    resolution: {integrity: sha512-g+fkv20KsNII+Kxd3cQIzLt62Uqq27DoLycNmaQBjcua/BffZfKtJ36zOdSN/L1Ul2wjns1nAyD1B8twXTEvbw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      eslint: ^9.5.0 || ^10.0.0
+      oxfmt: '>=0.53.0'
+      svelte: '*'
+    peerDependenciesMeta:
+      svelte:
+        optional: true
+
   eslint-plugin-perfectionist@5.9.0:
     resolution: {integrity: sha512-8TWzg02zmnBdZwCkWLi8jhzqXI+fE7Z/RwV8SL6xD45tJ8Bp3wGuYL2XtQgfe/Wd0eBqOUX+s6ey73IyszvKTA==}
     engines: {node: ^20.0.0 || >=22.0.0}
     peerDependencies:
       eslint: ^8.45.0 || ^9.0.0 || ^10.0.0
 
-  eslint-plugin-prettier@5.5.5:
-    resolution: {integrity: sha512-hscXkbqUZ2sPithAuLm5MXL+Wph+U7wHngPBv9OMWwlP8iaflyxpjTYZkmdgB4/vPIhemRlBEoLrH7UC1n7aUw==}
-    engines: {node: ^14.18.0 || >=16.0.0}
+  eslint-plugin-promise@7.3.0:
+    resolution: {integrity: sha512-6uGiOR0INuujr6PEQmeSSP7GbIMJ/ebEXXiEzb/nOj68LknH5Pxzb/AbZivmr6VE6TkTE8rTjRK9zhKpK6HsRA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      '@types/eslint': '>=8.0.0'
-      eslint: '>=8.0.0'
-      eslint-config-prettier: '>= 7.0.0 <10.0.0 || >=10.1.0'
-      prettier: '>=3.0.0'
-    peerDependenciesMeta:
-      '@types/eslint':
-        optional: true
-      eslint-config-prettier:
-        optional: true
+      eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
 
   eslint-plugin-react-hooks@7.1.1:
     resolution: {integrity: sha512-f2I7Gw6JbvCexzIInuSbZpfdQ44D7iqdWX01FKLvrPgqxoE7oMj8clOfto8U6vYiz4yd5oKu39rRSVOe1zRu0g==}
@@ -1689,6 +1723,12 @@ packages:
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
+
+  eslint-plugin-unicorn@65.0.1:
+    resolution: {integrity: sha512-daCrQrgxOoOz2uMPWB3Y3vvv/5q+ncwICI8IjoebiwtW87CaY4tAN5EEiRXTYVnf7qi1v1BGBdHOSnZLV0rx6A==}
+    engines: {node: ^20.10.0 || >=21.0.0}
+    peerDependencies:
+      eslint: '>=9.38.0'
 
   eslint-plugin-unused-imports@4.4.1:
     resolution: {integrity: sha512-oZGYUz1X3sRMGUB+0cZyK2VcvRX5lm/vB56PgNNcU+7ficUCKm66oZWKUubXWnOuPjQ8PvmXtCViXBMONPe7tQ==}
@@ -1765,9 +1805,6 @@ packages:
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  fast-diff@1.3.0:
-    resolution: {integrity: sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==}
-
   fast-glob@3.3.3:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
@@ -1800,6 +1837,10 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  find-up-simple@1.0.1:
+    resolution: {integrity: sha512-afd4O7zpqHeRyg4PfDQsXmlDe2PfdHtJt6Akt8jOWaApLOZk5JXs6VMR29lz03pRe9mpykrRCYIYxaJYcfpncQ==}
+    engines: {node: '>=18'}
 
   find-up@5.0.0:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
@@ -1841,6 +1882,9 @@ packages:
 
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
+
+  generate-differences@0.1.1:
+    resolution: {integrity: sha512-XZ4yI95KUy1xcB5xNOYtDwrCOkemwQcOuwlqTlLUBq0Zzvnfll1i+jHXYw0ut7NQDmJF5XPD1vSoV6Gjh0rpOw==}
 
   generator-function@2.0.1:
     resolution: {integrity: sha512-SFdFmIJi+ybC0vjlHN0ZGVGHc3lgE0DxPAT0djjVg+kjOnSqclqmj0KQ7ykTOLP6YxoqOvuAODGdcHJn+43q3g==}
@@ -1888,6 +1932,10 @@ packages:
 
   globals@16.5.0:
     resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
+    engines: {node: '>=18'}
+
+  globals@17.6.0:
+    resolution: {integrity: sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -1964,6 +2012,10 @@ packages:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
 
+  indent-string@5.0.0:
+    resolution: {integrity: sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==}
+    engines: {node: '>=12'}
+
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
@@ -2003,6 +2055,10 @@ packages:
   is-boolean-object@1.2.2:
     resolution: {integrity: sha512-wa56o2/ElJMYqjCjGkXri7it5FbebW5usLw/nPmCMs5DeZ7eziSYZhSmPRn0txqeW4LnAmQQU7FgqLpsEFKM4A==}
     engines: {node: '>= 0.4'}
+
+  is-builtin-module@5.0.0:
+    resolution: {integrity: sha512-f4RqJKBUe5rQkJ2eJEJBXSticB3hGbN9j0yxxMQFqIW89Jp9WYFtzfTcRlstDKVUTRzSOTLKRfO9vIztenwtxA==}
+    engines: {node: '>=18.20'}
 
   is-bun-module@2.0.0:
     resolution: {integrity: sha512-gNCGbnnnnFAUGKeZ9PdbyeGYJqewpmc2aKHUEMO5nQPWU9lOmv7jcmQIv+qHD8fXW6W7qfuCwX4rY9LNRjXrkQ==}
@@ -2175,6 +2231,9 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
+  jsonc-parser@3.3.1:
+    resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
+
   jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
@@ -2263,6 +2322,11 @@ packages:
   lines-and-columns@2.0.4:
     resolution: {integrity: sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  load-oxfmt-config@0.9.0:
+    resolution: {integrity: sha512-v19zP1ht1GwDJt6mcs48EjS+KFlG+4SA8POt1BlXG/xSRdkd2gRZhsnd9fLZjuuGQR/guchUrD0xKmnirQ5TxA==}
+    peerDependencies:
+      oxfmt: '>=0.50.0'
 
   load-plugin@6.0.3:
     resolution: {integrity: sha512-kc0X2FEUZr145odl68frm+lMJuQ23+rTXYmR6TImqPtbpmXC4vVXbWKDQ9IzndA0HfyQamWfKLhzsqGSTxE63w==}
@@ -2566,14 +2630,17 @@ packages:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
     engines: {node: '>= 0.4'}
 
-  oxfmt@0.51.0:
-    resolution: {integrity: sha512-l/AoAnaEOV7Q5/Z9kHOMDehVJnCgYN7wRoooWCTUMBMi16BJhLZqd9cmCnwcVFfVlzkt53zK2KLPFNp8vSsoDg==}
+  oxfmt@0.54.0:
+    resolution: {integrity: sha512-DjnMwn7smSLF+Mc2+pRItnuPftm/dkUFpY/d4+33y9TfKrsHZo8GLhmUg9BrOIUEy94Rlom1Q11N6vuhE+e0oQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
       svelte: ^5.0.0
+      vite-plus: '*'
     peerDependenciesMeta:
       svelte:
+        optional: true
+      vite-plus:
         optional: true
 
   p-finally@1.0.0:
@@ -2662,70 +2729,6 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-linter-helpers@1.0.1:
-    resolution: {integrity: sha512-SxToR7P8Y2lWmv/kTzVLC1t/GDI2WGjMwNhLLE9qtH8Q13C+aEmuRlzDst4Up4s0Wc8sF2M+J57iB3cMLqftfg==}
-    engines: {node: '>=6.0.0'}
-
-  prettier-plugin-tailwindcss@0.8.0:
-    resolution: {integrity: sha512-V8ITGH87yuBDF6JpEZTOVlUz/saAwqb8f3HRgUj8Lh+tGCcrmorhsLpYqzygwFwK0PE2Ib6Mv3M7T/uE2tZV1g==}
-    engines: {node: '>=20.19'}
-    peerDependencies:
-      '@ianvs/prettier-plugin-sort-imports': '*'
-      '@prettier/plugin-hermes': '*'
-      '@prettier/plugin-oxc': '*'
-      '@prettier/plugin-pug': '*'
-      '@shopify/prettier-plugin-liquid': '*'
-      '@trivago/prettier-plugin-sort-imports': '*'
-      '@zackad/prettier-plugin-twig': '*'
-      prettier: ^3.0
-      prettier-plugin-astro: '*'
-      prettier-plugin-css-order: '*'
-      prettier-plugin-jsdoc: '*'
-      prettier-plugin-marko: '*'
-      prettier-plugin-multiline-arrays: '*'
-      prettier-plugin-organize-attributes: '*'
-      prettier-plugin-organize-imports: '*'
-      prettier-plugin-sort-imports: '*'
-      prettier-plugin-svelte: '*'
-    peerDependenciesMeta:
-      '@ianvs/prettier-plugin-sort-imports':
-        optional: true
-      '@prettier/plugin-hermes':
-        optional: true
-      '@prettier/plugin-oxc':
-        optional: true
-      '@prettier/plugin-pug':
-        optional: true
-      '@shopify/prettier-plugin-liquid':
-        optional: true
-      '@trivago/prettier-plugin-sort-imports':
-        optional: true
-      '@zackad/prettier-plugin-twig':
-        optional: true
-      prettier-plugin-astro:
-        optional: true
-      prettier-plugin-css-order:
-        optional: true
-      prettier-plugin-jsdoc:
-        optional: true
-      prettier-plugin-marko:
-        optional: true
-      prettier-plugin-multiline-arrays:
-        optional: true
-      prettier-plugin-organize-attributes:
-        optional: true
-      prettier-plugin-organize-imports:
-        optional: true
-      prettier-plugin-sort-imports:
-        optional: true
-      prettier-plugin-svelte:
-        optional: true
-
-  prettier@3.8.3:
-    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   proc-log@4.2.0:
     resolution: {integrity: sha512-g8+OnU/L2v+wyiVK+D5fA34J7EH8jZ8DDlvwhRCMxmMj7UCBvxiO1mGeN+36JXIKF4zevU4kRBd8lVgG9vLelA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
@@ -2803,6 +2806,10 @@ packages:
   regexp.prototype.flags@1.5.4:
     resolution: {integrity: sha512-dYqgNSZbDwkaJ2ceRd9ojCGjBq+mOm9LmtXnAnEGyHhN/5R7iDW2TRw3h+o/jCFxus3P2LfWIIiwowAjANm7IA==}
     engines: {node: '>= 0.4'}
+
+  regjsparser@0.13.1:
+    resolution: {integrity: sha512-dLsljMd9sqwRkby8zhO1gSg3PnJIBFid8f4CQj/sXx+7cKx+E7u0PKhZ+U4wmhx7EfmtvnA318oVaIkAB1lRJw==}
+    hasBin: true
 
   remark-frontmatter@5.0.0:
     resolution: {integrity: sha512-XTFYvNASMe5iPN0719nPrdItC9aU0ssC4v14mH1BCi1u0n1gAocqcujWUrByftZTbLhRtiKRyjYTSIOcr69UVQ==}
@@ -3062,6 +3069,10 @@ packages:
     resolution: {integrity: sha512-7FCwGGmx8mD5xQd3RPUvnSpUXHM3BWuzjtpD4TXsfcZ9EL4azvVVUscFYwD9nx8Kh+uCBC00XBtAykoMHwTh8Q==}
     engines: {node: '>=0.10.0'}
 
+  strip-indent@4.1.1:
+    resolution: {integrity: sha512-SlyRoSkdh1dYP0PzclLE7r0M9sgbFKKMFXpFRUMNuKhQSbC6VQIGzq3E0qsfvGJaUFJPGv6Ws1NZ/haTAjfbMA==}
+    engines: {node: '>=12'}
+
   strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
@@ -3078,52 +3089,52 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  synckit@0.11.12:
-    resolution: {integrity: sha512-Bh7QjT8/SuKUIfObSXNHNSK6WHo6J1tHCqJsuaFDP7gP0fkzSfTxI8y85JrppZ0h8l0maIgc2tfuZQ6/t3GtnQ==}
+  synckit@0.11.13:
+    resolution: {integrity: sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  syncpack-darwin-arm64@14.2.1:
-    resolution: {integrity: sha512-SGrC163UWiL68TRo8rmPQFgbT83ieT7zQ1GKyoPZ3TAGNQ+6a/3GMXlZQ+HKV3ydVyB2t60H5CsQFlz13QHTqA==}
+  syncpack-darwin-arm64@15.3.1:
+    resolution: {integrity: sha512-XvbaowC/fw+B7diOtoYjEtSWJVMEbJ7ZH72/TZIe73NwYwY7KFRMVefwxcJE29G+my4vaPmttf2Lbnri8pD6Jw==}
     cpu: [arm64]
     os: [darwin]
 
-  syncpack-darwin-x64@14.2.1:
-    resolution: {integrity: sha512-ZqAJb4FEez3zpuOHUKZNSBWiYGH4FqmN5pI/AzM2N81oSGTYLaI+H4Wmi6rtZdQXRX2ZzQRs4lQrLTdmVv7oQg==}
+  syncpack-darwin-x64@15.3.1:
+    resolution: {integrity: sha512-KX5+fcHzaGugppyPV3se8iKoFYE5Jde3ZxN80dJKNejluP29rGmOQ1JNaVjy40nZInPNLKQ8LS0TMRtxIgh8ew==}
     cpu: [x64]
     os: [darwin]
 
-  syncpack-linux-arm64-musl@14.2.1:
-    resolution: {integrity: sha512-vfopyN7ne++jnV4uAsoH8NHbio/6+yfdc9VfXt+9ZQiuR1AxtjT2Hylv6re5e6c1j0MPWaCRtaZBZhDUi0ZPdA==}
+  syncpack-linux-arm64-musl@15.3.1:
+    resolution: {integrity: sha512-YslfJ1UndTwL000p0JTP/r8uwXJ4LfYeFBqAfRhLuWoJz8CO+yWyUl4VNdFNitSR1OOB/J7gc4q3jOsxh7kTOg==}
     cpu: [arm64]
     os: [linux]
 
-  syncpack-linux-arm64@14.2.1:
-    resolution: {integrity: sha512-yjyG1v1lYBmWaD+aGXt4eovZ3k+d/nwHU8AZkFJh2jxBy6He2qTclR7+eI/BFcmiAehncbGNksYhL2h2RlC0Rg==}
+  syncpack-linux-arm64@15.3.1:
+    resolution: {integrity: sha512-5saJ4LnizTppqVLt49MKagTixDpuR+5MFweGCkoEAm4SikLqNfzkiEnHqVsjY3+BkCVtXf6DcR1OX6hwswNJ0A==}
     cpu: [arm64]
     os: [linux]
 
-  syncpack-linux-x64-musl@14.2.1:
-    resolution: {integrity: sha512-2/LMs6nFWPV2P0XOmMo63Erzv8OQ9skszXdalrhU2ilBO7f6B4sup6NsMKIXJeYHNso94TcLdAxyiGQ4sCdmTw==}
+  syncpack-linux-x64-musl@15.3.1:
+    resolution: {integrity: sha512-/mnWa3FmzJRsDLuqx6rzQIawV5ly1MFyUPxcZlaLX3FbxBryrVXJZZXGd0yJ9UTEKgE5UfRRQlS+ayeXvJbNew==}
     cpu: [x64]
     os: [linux]
 
-  syncpack-linux-x64@14.2.1:
-    resolution: {integrity: sha512-rfDzLxiJng7XIVShO7ygrAvrGdCloaKhMm2c4Q8blxVTHgSNcmL4cHRP/Zcvj7pmYGkwok6DtAetgxV47XpoGA==}
+  syncpack-linux-x64@15.3.1:
+    resolution: {integrity: sha512-bk8keNTteQxXpKDc+Y3r3fE7IZn4cU61gq7ka4gPcBNvvMHOk8Pg71/qQEwN3zBtzAj6yF1Fyzb0NYK9Wo6EPQ==}
     cpu: [x64]
     os: [linux]
 
-  syncpack-windows-arm64@14.2.1:
-    resolution: {integrity: sha512-T+qP9ERY8dg6HWAgFtxNKxp67EJ7CIstHeQ8jQAiSmKGNt+HEzzVCipSGMb9yu9SGjVQHuvn2wAf33LppYfivA==}
+  syncpack-windows-arm64@15.3.1:
+    resolution: {integrity: sha512-GIKQtpNl1Ox2gwBDlEXgL1rneMwUMG0E3eB+EjDKdh4kOJtO0DYduTgg10dmFk/i1ynKGvFtgvhN3VZAr75jgA==}
     cpu: [arm64]
     os: [win32]
 
-  syncpack-windows-x64@14.2.1:
-    resolution: {integrity: sha512-yoK6eHbzTgKuaL4dU/AFNaIHqRletqR8w5aBGBzdAY39n2MrNbfGVBUeDglRBYnSoE+PgLtqwbHULIlhPratPw==}
+  syncpack-windows-x64@15.3.1:
+    resolution: {integrity: sha512-4Kl7gCFzaEF7IoHa3vcEHRPx1um8pnzEqidRyQProIJBROG4srgkyQkmwJUXbWzWJhAq2Ic0vtDUvzIXF2U/Dg==}
     cpu: [x64]
     os: [win32]
 
-  syncpack@14.2.1:
-    resolution: {integrity: sha512-9CE0+MCThNPt0/yXD5cFaJQw2jxslaB3Ck1ASeP9uFji+lE3KWmfGRBzy8x5sjhygUz6Vt+a84w+ycIzATQicA==}
+  syncpack@15.3.1:
+    resolution: {integrity: sha512-0Z+/rwbskj+m5qW8caVbd59OwwXBcxRiDFk82Cb4tKGLPXmZn7Vjo7BnfxHwZqS51Ff+5TFgH5/iyXd24+G6YA==}
     engines: {node: '>=14.17.0'}
     hasBin: true
 
@@ -3712,88 +3723,92 @@ snapshots:
     dependencies:
       which: 4.0.0
 
+  '@ntnyq/utils@0.13.3': {}
+
+  '@one-ini/wasm@0.2.1': {}
+
   '@oxc-project/types@0.132.0': {}
 
-  '@oxfmt/binding-android-arm-eabi@0.51.0':
+  '@oxfmt/binding-android-arm-eabi@0.54.0':
     optional: true
 
-  '@oxfmt/binding-android-arm64@0.51.0':
+  '@oxfmt/binding-android-arm64@0.54.0':
     optional: true
 
-  '@oxfmt/binding-darwin-arm64@0.51.0':
+  '@oxfmt/binding-darwin-arm64@0.54.0':
     optional: true
 
-  '@oxfmt/binding-darwin-x64@0.51.0':
+  '@oxfmt/binding-darwin-x64@0.54.0':
     optional: true
 
-  '@oxfmt/binding-freebsd-x64@0.51.0':
+  '@oxfmt/binding-freebsd-x64@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-arm-gnueabihf@0.51.0':
+  '@oxfmt/binding-linux-arm-gnueabihf@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-arm-musleabihf@0.51.0':
+  '@oxfmt/binding-linux-arm-musleabihf@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-arm64-gnu@0.51.0':
+  '@oxfmt/binding-linux-arm64-gnu@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-arm64-musl@0.51.0':
+  '@oxfmt/binding-linux-arm64-musl@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-ppc64-gnu@0.51.0':
+  '@oxfmt/binding-linux-ppc64-gnu@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-riscv64-gnu@0.51.0':
+  '@oxfmt/binding-linux-riscv64-gnu@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-riscv64-musl@0.51.0':
+  '@oxfmt/binding-linux-riscv64-musl@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-s390x-gnu@0.51.0':
+  '@oxfmt/binding-linux-s390x-gnu@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-x64-gnu@0.51.0':
+  '@oxfmt/binding-linux-x64-gnu@0.54.0':
     optional: true
 
-  '@oxfmt/binding-linux-x64-musl@0.51.0':
+  '@oxfmt/binding-linux-x64-musl@0.54.0':
     optional: true
 
-  '@oxfmt/binding-openharmony-arm64@0.51.0':
+  '@oxfmt/binding-openharmony-arm64@0.54.0':
     optional: true
 
-  '@oxfmt/binding-win32-arm64-msvc@0.51.0':
+  '@oxfmt/binding-win32-arm64-msvc@0.54.0':
     optional: true
 
-  '@oxfmt/binding-win32-ia32-msvc@0.51.0':
+  '@oxfmt/binding-win32-ia32-msvc@0.54.0':
     optional: true
 
-  '@oxfmt/binding-win32-x64-msvc@0.51.0':
+  '@oxfmt/binding-win32-x64-msvc@0.54.0':
     optional: true
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@pkgr/core@0.2.9': {}
+  '@pkgr/core@0.3.6': {}
 
-  '@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)':
+  '@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)':
     dependencies:
       '@internationalized/number': 3.6.6
-      '@qualcomm-ui/dom': 1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/utils': 1.3.0
+      '@qualcomm-ui/dom': 1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/utils': 1.3.2
 
-  '@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0)':
+  '@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2)':
     dependencies:
       '@floating-ui/dom': 1.7.6
-      '@qualcomm-ui/utils': 1.3.0
+      '@qualcomm-ui/utils': 1.3.2
 
-  '@qualcomm-ui/eslint-config-mdx@3.0.1(eslint-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.51.0)(remark-frontmatter@5.0.0)(remark-lint-fenced-code-flag@4.2.0)(remark-lint-final-newline@3.0.1)(remark-lint-heading-increment@4.0.1)(remark-lint-list-item-content-indent@4.0.1)(remark-lint-list-item-indent@4.0.1)(remark-lint-maximum-heading-length@4.1.1)(remark-lint-no-consecutive-blank-lines@5.0.1)(remark-lint-no-duplicate-headings-in-section@4.0.1)(remark-lint-no-heading-punctuation@4.0.1)(remark-lint-unordered-list-marker-style@4.0.1)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)(unified@11.0.5)':
+  '@qualcomm-ui/eslint-config-mdx@3.0.3(eslint-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-mdx@3.7.0(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.54.0)(remark-frontmatter@5.0.0)(remark-lint-fenced-code-flag@4.2.0)(remark-lint-final-newline@3.0.1)(remark-lint-heading-increment@4.0.1)(remark-lint-list-item-content-indent@4.0.1)(remark-lint-list-item-indent@4.0.1)(remark-lint-maximum-heading-length@4.1.1)(remark-lint-no-consecutive-blank-lines@5.0.1)(remark-lint-no-duplicate-headings-in-section@4.0.1)(remark-lint-no-heading-punctuation@4.0.1)(remark-lint-unordered-list-marker-style@4.0.1)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)(unified@11.0.5)':
     dependencies:
       eslint: 9.39.4(jiti@2.7.0)
       eslint-mdx: 3.7.0(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-mdx: 3.7.0(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-react: 7.37.5(eslint@9.39.4(jiti@2.7.0))
-      oxfmt: 0.51.0
+      oxfmt: 0.54.0
       remark-frontmatter: 5.0.0
       remark-lint-fenced-code-flag: 4.2.0
       remark-lint-final-newline: 3.0.1
@@ -3809,77 +3824,80 @@ snapshots:
       typescript-eslint: 8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       unified: 11.0.5
 
-  '@qualcomm-ui/eslint-config-react@1.1.1(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3))(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3)(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)':
+  '@qualcomm-ui/eslint-config-react@2.0.0(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0)(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.7.0)))(eslint-plugin-react@7.37.5(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(typescript-eslint@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       '@typescript-eslint/parser': 8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       eslint: 9.39.4(jiti@2.7.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@4.4.4)(eslint@9.39.4(jiti@2.7.0))
-      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3)
       eslint-plugin-react: 7.37.5(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-react-hooks: 7.1.1(eslint@9.39.4(jiti@2.7.0))
-      prettier: 3.8.3
       typescript: 5.9.3
       typescript-eslint: 8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
 
-  '@qualcomm-ui/eslint-config-typescript@2.0.0(1671e8f0338745c04a475587e0aeb6eb)':
+  '@qualcomm-ui/eslint-config-typescript@3.0.0(e0bad9026aabf403c4d551642f424f8d)':
     dependencies:
       '@eslint/js': 9.39.4
       '@stylistic/eslint-plugin': 5.10.0(eslint@9.39.4(jiti@2.7.0))
       '@typescript-eslint/eslint-plugin': 8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       '@typescript-eslint/parser': 8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       eslint: 9.39.4(jiti@2.7.0)
-      eslint-config-prettier: 10.1.8(eslint@9.39.4(jiti@2.7.0))
       eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import@2.32.0)(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-comment-length: 2.3.1(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@4.4.4)(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-jsdoc: 63.0.0(eslint@9.39.4(jiti@2.7.0))
+      eslint-plugin-oxfmt: 0.9.0(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.54.0)
       eslint-plugin-perfectionist: 5.9.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
-      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3)
+      eslint-plugin-promise: 7.3.0(eslint@9.39.4(jiti@2.7.0))
+      eslint-plugin-unicorn: 65.0.1(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))
-      prettier: 3.8.3
+      oxfmt: 0.54.0
       typescript: 5.9.3
       typescript-eslint: 8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
 
-  '@qualcomm-ui/eslint-plugin-react@1.2.0(eslint@9.39.4(jiti@2.7.0))':
+  '@qualcomm-ui/eslint-plugin-react@1.2.2(eslint@9.39.4(jiti@2.7.0))':
     dependencies:
       eslint: 9.39.4(jiti@2.7.0)
 
-  '@qualcomm-ui/qds-core@1.28.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)':
+  '@qualcomm-ui/oxfmt-config@1.0.1(oxfmt@0.54.0)':
     dependencies:
-      '@qualcomm-ui/core': 1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/utils': 1.3.0
+      oxfmt: 0.54.0
 
-  '@qualcomm-ui/react-core@1.5.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@qualcomm-ui/qds-core@1.29.3(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)':
     dependencies:
-      '@qualcomm-ui/core': 1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/dom': 1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/utils': 1.3.0
+      '@qualcomm-ui/core': 1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/utils': 1.3.2
+
+  '@qualcomm-ui/react-core@1.5.7(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+    dependencies:
+      '@qualcomm-ui/core': 1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/dom': 1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/utils': 1.3.2
       '@tanstack/react-virtual': 3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       lucide-react: 1.16.0(react@19.2.6)
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
 
-  '@qualcomm-ui/react@1.22.2(fb21ecd045f82985d1a19fd6a0502795)':
+  '@qualcomm-ui/react@1.24.4(6b7e4110222f9865d24a8bc8af28471c)':
     dependencies:
-      '@qualcomm-ui/core': 1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/qds-core': 1.28.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)
-      '@qualcomm-ui/react-core': 1.5.2(@qualcomm-ui/core@1.11.1(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/dom@1.1.2(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.0))(@qualcomm-ui/utils@1.3.0)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
-      '@qualcomm-ui/utils': 1.3.0
+      '@qualcomm-ui/core': 1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/qds-core': 1.29.3(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)
+      '@qualcomm-ui/react-core': 1.5.7(@qualcomm-ui/core@1.11.5(@internationalized/number@3.6.6)(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/dom@1.1.4(@floating-ui/dom@1.7.6)(@qualcomm-ui/utils@1.3.2))(@qualcomm-ui/utils@1.3.2)(@tanstack/react-virtual@3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@1.16.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@qualcomm-ui/utils': 1.3.2
       '@tanstack/react-virtual': 3.13.25(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       lucide-react: 1.16.0(react@19.2.6)
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
 
-  '@qualcomm-ui/tailwind-plugin@1.7.1(tailwindcss@4.3.0)':
+  '@qualcomm-ui/tailwind-plugin@1.7.4(tailwindcss@4.3.0)':
     dependencies:
       tailwindcss: 4.3.0
 
-  '@qualcomm-ui/tsconfig@2.0.0(typescript@5.9.3)':
+  '@qualcomm-ui/tsconfig@2.1.1(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
-  '@qualcomm-ui/utils@1.3.0': {}
+  '@qualcomm-ui/utils@1.3.2': {}
 
   '@rolldown/binding-android-arm64@1.0.2':
     optional: true
@@ -4515,6 +4533,8 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
+  builtin-modules@5.2.0: {}
+
   call-bind-apply-helpers@1.0.2:
     dependencies:
       es-errors: 1.3.0
@@ -4543,6 +4563,8 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
+  change-case@5.4.4: {}
+
   character-entities-html4@2.1.0: {}
 
   character-entities-legacy@3.0.0: {}
@@ -4559,6 +4581,8 @@ snapshots:
 
   color-name@1.1.4: {}
 
+  commander@14.0.3: {}
+
   comment-parser@1.4.6: {}
 
   concat-map@0.0.1: {}
@@ -4573,6 +4597,10 @@ snapshots:
   convert-source-map@2.0.0: {}
 
   cookie@1.1.1: {}
+
+  core-js-compat@3.49.0:
+    dependencies:
+      browserslist: 4.28.2
 
   cross-spawn@6.0.6:
     dependencies:
@@ -4636,6 +4664,8 @@ snapshots:
 
   dequal@2.0.3: {}
 
+  detect-indent@7.0.2: {}
+
   detect-libc@2.1.2: {}
 
   devlop@1.1.0:
@@ -4653,6 +4683,13 @@ snapshots:
       gopd: 1.2.0
 
   eastasianwidth@0.2.0: {}
+
+  editorconfig@3.0.2:
+    dependencies:
+      '@one-ini/wasm': 0.2.1
+      commander: 14.0.3
+      minimatch: 10.2.5
+      semver: 7.8.1
 
   electron-to-chromium@1.5.361: {}
 
@@ -4784,10 +4821,6 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)):
-    dependencies:
-      eslint: 9.39.4(jiti@2.7.0)
-
   eslint-import-context@0.1.9(unrs-resolver@1.12.2):
     dependencies:
       get-tsconfig: 4.14.0
@@ -4828,7 +4861,7 @@ snapshots:
       remark-mdx: 3.1.1
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
-      synckit: 0.11.12
+      synckit: 0.11.13
       unified: 11.0.5
       unified-engine: 11.2.2
       unist-util-visit: 5.1.0
@@ -4915,13 +4948,22 @@ snapshots:
       remark-mdx: 3.1.1
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
-      synckit: 0.11.12
+      synckit: 0.11.13
       unified: 11.0.5
       vfile: 6.0.3
     transitivePeerDependencies:
       - bluebird
       - remark-lint-file-extension
       - supports-color
+
+  eslint-plugin-oxfmt@0.9.0(eslint@9.39.4(jiti@2.7.0))(oxfmt@0.54.0):
+    dependencies:
+      eslint: 9.39.4(jiti@2.7.0)
+      generate-differences: 0.1.1
+      load-oxfmt-config: 0.9.0(oxfmt@0.54.0)
+      oxfmt: 0.54.0
+      picomatch: 4.0.4
+      synckit: 0.11.13
 
   eslint-plugin-perfectionist@5.9.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3):
     dependencies:
@@ -4932,14 +4974,10 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))(prettier@3.8.3):
+  eslint-plugin-promise@7.3.0(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(jiti@2.7.0))
       eslint: 9.39.4(jiti@2.7.0)
-      prettier: 3.8.3
-      prettier-linter-helpers: 1.0.1
-      synckit: 0.11.12
-    optionalDependencies:
-      eslint-config-prettier: 10.1.8(eslint@9.39.4(jiti@2.7.0))
 
   eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
@@ -4973,6 +5011,25 @@ snapshots:
       semver: 6.3.1
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
+
+  eslint-plugin-unicorn@65.0.1(eslint@9.39.4(jiti@2.7.0)):
+    dependencies:
+      '@babel/helper-validator-identifier': 7.28.5
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(jiti@2.7.0))
+      change-case: 5.4.4
+      ci-info: 4.4.0
+      core-js-compat: 3.49.0
+      detect-indent: 7.0.2
+      eslint: 9.39.4(jiti@2.7.0)
+      find-up-simple: 1.0.1
+      globals: 17.6.0
+      indent-string: 5.0.0
+      is-builtin-module: 5.0.0
+      jsesc: 3.1.0
+      pluralize: 8.0.0
+      regjsparser: 0.13.1
+      semver: 7.8.1
+      strip-indent: 4.1.1
 
   eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.58.2(@typescript-eslint/parser@8.58.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
@@ -5077,8 +5134,6 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
-  fast-diff@1.3.0: {}
-
   fast-glob@3.3.3:
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -5110,6 +5165,8 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
+
+  find-up-simple@1.0.1: {}
 
   find-up@5.0.0:
     dependencies:
@@ -5151,6 +5208,8 @@ snapshots:
       is-callable: 1.2.7
 
   functions-have-names@1.2.3: {}
+
+  generate-differences@0.1.1: {}
 
   generator-function@2.0.1: {}
 
@@ -5208,6 +5267,8 @@ snapshots:
   globals@14.0.0: {}
 
   globals@16.5.0: {}
+
+  globals@17.6.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -5267,6 +5328,8 @@ snapshots:
 
   imurmurhash@0.1.4: {}
 
+  indent-string@5.0.0: {}
+
   inherits@2.0.4: {}
 
   ini@4.1.3: {}
@@ -5310,6 +5373,10 @@ snapshots:
     dependencies:
       call-bound: 1.0.4
       has-tostringtag: 1.0.2
+
+  is-builtin-module@5.0.0:
+    dependencies:
+      builtin-modules: 5.2.0
 
   is-bun-module@2.0.0:
     dependencies:
@@ -5461,6 +5528,8 @@ snapshots:
 
   json5@2.2.3: {}
 
+  jsonc-parser@3.3.1: {}
+
   jsx-ast-utils@3.3.5:
     dependencies:
       array-includes: 3.1.9
@@ -5527,6 +5596,16 @@ snapshots:
       lightningcss-win32-x64-msvc: 1.32.0
 
   lines-and-columns@2.0.4: {}
+
+  load-oxfmt-config@0.9.0(oxfmt@0.54.0):
+    dependencies:
+      '@ntnyq/utils': 0.13.3
+      editorconfig: 3.0.2
+      ignore: 7.0.5
+      jiti: 2.7.0
+      jsonc-parser: 3.3.1
+      oxfmt: 0.54.0
+      picomatch: 4.0.4
 
   load-plugin@6.0.3:
     dependencies:
@@ -6046,29 +6125,29 @@ snapshots:
       object-keys: 1.1.1
       safe-push-apply: 1.0.0
 
-  oxfmt@0.51.0:
+  oxfmt@0.54.0:
     dependencies:
       tinypool: 2.1.0
     optionalDependencies:
-      '@oxfmt/binding-android-arm-eabi': 0.51.0
-      '@oxfmt/binding-android-arm64': 0.51.0
-      '@oxfmt/binding-darwin-arm64': 0.51.0
-      '@oxfmt/binding-darwin-x64': 0.51.0
-      '@oxfmt/binding-freebsd-x64': 0.51.0
-      '@oxfmt/binding-linux-arm-gnueabihf': 0.51.0
-      '@oxfmt/binding-linux-arm-musleabihf': 0.51.0
-      '@oxfmt/binding-linux-arm64-gnu': 0.51.0
-      '@oxfmt/binding-linux-arm64-musl': 0.51.0
-      '@oxfmt/binding-linux-ppc64-gnu': 0.51.0
-      '@oxfmt/binding-linux-riscv64-gnu': 0.51.0
-      '@oxfmt/binding-linux-riscv64-musl': 0.51.0
-      '@oxfmt/binding-linux-s390x-gnu': 0.51.0
-      '@oxfmt/binding-linux-x64-gnu': 0.51.0
-      '@oxfmt/binding-linux-x64-musl': 0.51.0
-      '@oxfmt/binding-openharmony-arm64': 0.51.0
-      '@oxfmt/binding-win32-arm64-msvc': 0.51.0
-      '@oxfmt/binding-win32-ia32-msvc': 0.51.0
-      '@oxfmt/binding-win32-x64-msvc': 0.51.0
+      '@oxfmt/binding-android-arm-eabi': 0.54.0
+      '@oxfmt/binding-android-arm64': 0.54.0
+      '@oxfmt/binding-darwin-arm64': 0.54.0
+      '@oxfmt/binding-darwin-x64': 0.54.0
+      '@oxfmt/binding-freebsd-x64': 0.54.0
+      '@oxfmt/binding-linux-arm-gnueabihf': 0.54.0
+      '@oxfmt/binding-linux-arm-musleabihf': 0.54.0
+      '@oxfmt/binding-linux-arm64-gnu': 0.54.0
+      '@oxfmt/binding-linux-arm64-musl': 0.54.0
+      '@oxfmt/binding-linux-ppc64-gnu': 0.54.0
+      '@oxfmt/binding-linux-riscv64-gnu': 0.54.0
+      '@oxfmt/binding-linux-riscv64-musl': 0.54.0
+      '@oxfmt/binding-linux-s390x-gnu': 0.54.0
+      '@oxfmt/binding-linux-x64-gnu': 0.54.0
+      '@oxfmt/binding-linux-x64-musl': 0.54.0
+      '@oxfmt/binding-openharmony-arm64': 0.54.0
+      '@oxfmt/binding-win32-arm64-msvc': 0.54.0
+      '@oxfmt/binding-win32-ia32-msvc': 0.54.0
+      '@oxfmt/binding-win32-x64-msvc': 0.54.0
 
   p-finally@1.0.0: {}
 
@@ -6144,16 +6223,6 @@ snapshots:
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
-
-  prettier-linter-helpers@1.0.1:
-    dependencies:
-      fast-diff: 1.3.0
-
-  prettier-plugin-tailwindcss@0.8.0(prettier@3.8.3):
-    dependencies:
-      prettier: 3.8.3
-
-  prettier@3.8.3: {}
 
   proc-log@4.2.0: {}
 
@@ -6237,6 +6306,10 @@ snapshots:
       get-proto: 1.0.1
       gopd: 1.2.0
       set-function-name: 2.0.2
+
+  regjsparser@0.13.1:
+    dependencies:
+      jsesc: 3.1.0
 
   remark-frontmatter@5.0.0:
     dependencies:
@@ -6643,6 +6716,8 @@ snapshots:
 
   strip-eof@1.0.0: {}
 
+  strip-indent@4.1.1: {}
+
   strip-json-comments@3.1.1: {}
 
   supports-color@7.2.0:
@@ -6653,44 +6728,44 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  synckit@0.11.12:
+  synckit@0.11.13:
     dependencies:
-      '@pkgr/core': 0.2.9
+      '@pkgr/core': 0.3.6
 
-  syncpack-darwin-arm64@14.2.1:
+  syncpack-darwin-arm64@15.3.1:
     optional: true
 
-  syncpack-darwin-x64@14.2.1:
+  syncpack-darwin-x64@15.3.1:
     optional: true
 
-  syncpack-linux-arm64-musl@14.2.1:
+  syncpack-linux-arm64-musl@15.3.1:
     optional: true
 
-  syncpack-linux-arm64@14.2.1:
+  syncpack-linux-arm64@15.3.1:
     optional: true
 
-  syncpack-linux-x64-musl@14.2.1:
+  syncpack-linux-x64-musl@15.3.1:
     optional: true
 
-  syncpack-linux-x64@14.2.1:
+  syncpack-linux-x64@15.3.1:
     optional: true
 
-  syncpack-windows-arm64@14.2.1:
+  syncpack-windows-arm64@15.3.1:
     optional: true
 
-  syncpack-windows-x64@14.2.1:
+  syncpack-windows-x64@15.3.1:
     optional: true
 
-  syncpack@14.2.1:
+  syncpack@15.3.1:
     optionalDependencies:
-      syncpack-darwin-arm64: 14.2.1
-      syncpack-darwin-x64: 14.2.1
-      syncpack-linux-arm64: 14.2.1
-      syncpack-linux-arm64-musl: 14.2.1
-      syncpack-linux-x64: 14.2.1
-      syncpack-linux-x64-musl: 14.2.1
-      syncpack-windows-arm64: 14.2.1
-      syncpack-windows-x64: 14.2.1
+      syncpack-darwin-arm64: 15.3.1
+      syncpack-darwin-x64: 15.3.1
+      syncpack-linux-arm64: 15.3.1
+      syncpack-linux-arm64-musl: 15.3.1
+      syncpack-linux-x64: 15.3.1
+      syncpack-linux-x64-musl: 15.3.1
+      syncpack-windows-arm64: 15.3.1
+      syncpack-windows-x64: 15.3.1
 
   tailwindcss@4.3.0: {}
 

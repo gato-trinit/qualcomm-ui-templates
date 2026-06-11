@@ -1,11 +1,8 @@
 {
-  "extends": "@qualcomm-ui/tsconfig/tsconfig.react-docs.json",
+  "files": [],
   "compilerOptions": {
-    "baseUrl": "./",
-    "moduleResolution": "bundler",
-    "module": "nodenext",
+
   },
-  "include": ["./src/**/*.mdx"],
   "references": [
     {
       "path": "./tsconfig.lib.json"

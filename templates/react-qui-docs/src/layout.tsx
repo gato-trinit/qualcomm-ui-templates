@@ -8,8 +8,6 @@ import {
 } from "react-router"
 
 import {QdsTheme} from "@qualcomm-ui/qds-core/theme"
-import {HeaderBar} from "@qualcomm-ui/react/header-bar"
-import {Link} from "@qualcomm-ui/react/link"
 import {
   DocsFooter,
   DocsLayout,
@@ -18,6 +16,8 @@ import {
 } from "@qualcomm-ui/react-mdx/docs-layout"
 import {SiteSearch} from "@qualcomm-ui/react-mdx/site-search"
 import {useTheme} from "@qualcomm-ui/react-router-utils/client"
+import {HeaderBar} from "@qualcomm-ui/react/header-bar"
+import {Link} from "@qualcomm-ui/react/link"
 
 function ThemeToggle(): ReactNode {
   const [theme, setTheme] = useTheme()

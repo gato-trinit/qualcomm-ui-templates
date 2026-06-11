@@ -1,4 +1,3 @@
-import "./globals.css"
 import type {ReactNode} from "react"
 
 import type {Metadata} from "next"
@@ -9,6 +8,8 @@ import type {QdsTheme} from "@qualcomm-ui/qds-core/theme"
 
 import {AppLayout} from "./components/app-layout"
 import {ThemeProvider} from "./components/theme-provider"
+
+import "./globals.css"
 
 const sansFont = Roboto_Flex({
   subsets: ["latin"],

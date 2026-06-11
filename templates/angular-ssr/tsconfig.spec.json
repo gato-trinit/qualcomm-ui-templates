@@ -3,9 +3,11 @@
   "compilerOptions": {
     "composite": true,
     "outDir": "./out-tsc/spec",
+    "rootDir": "./test-utils",
     "paths": {
       "~test-utils/render": ["./test-utils/render.ts"]
-    }
+    },
+    "tsBuildInfoFile": "build/.tmp/.tsbuildinfo-spec"
   },
   "include": [
     "test-utils",
