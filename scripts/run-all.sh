@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Runs a package-manager command in every templates/* directory concurrently.
+# Runs a package-manager action in every templates/* directory concurrently.
 #
 # Each template is a standalone package (this repo is not a monorepo), so
 # commands are independent and run in parallel. Each command runs from the
@@ -16,7 +16,7 @@ script_dir="$(cd "$(dirname "$0")" && pwd)"
 repo_root="$(dirname "$script_dir")"
 
 usage() {
-  echo "Usage: $(basename "$0") <install|lint>" >&2
+  echo "Usage: $(basename "$0") <build|install|lint|update-pnpm>" >&2
 }
 
 if [ "$#" -ne 1 ]; then
@@ -24,9 +24,13 @@ if [ "$#" -ne 1 ]; then
   exit 2
 fi
 
-command_name="$1"
+action="$1"
 
-case "$command_name" in
+case "$action" in
+  build)
+    start_message="Building"
+    success_message="built"
+    ;;
   install)
     start_message="Installing"
     success_message="installed"
@@ -34,6 +38,10 @@ case "$command_name" in
   lint)
     start_message="Linting"
     success_message="linted"
+    ;;
+  update-pnpm)
+    start_message="Updating pnpm for"
+    success_message="updated"
     ;;
   *)
     usage
@@ -61,13 +69,23 @@ for dir in templates/*/; do
     # field from this cwd to run the exact pinned version.
     pm="$(node -p "(require('./package.json').packageManager || 'npm').split('@')[0]")"
 
-    if [ "$command_name" = "install" ] && [ "$pm" = "pnpm" ]; then
-      # Without a TTY, pnpm aborts rather than prompting before purging an
-      # unexpected node_modules dir. Auto-confirm so non-interactive runs proceed.
-      corepack pnpm --config.confirm-modules-purge=false install
-    else
-      corepack "$pm" "$command_name"
-    fi
+    case "$action" in
+      install)
+        if [ "$pm" = "pnpm" ]; then
+          # Without a TTY, pnpm aborts rather than prompting before purging an
+          # unexpected node_modules dir. Auto-confirm so non-interactive runs proceed.
+          corepack pnpm --config.confirm-modules-purge=false install
+        else
+          corepack "$pm" install
+        fi
+        ;;
+      build|lint)
+        corepack "$pm" run "$action"
+        ;;
+      update-pnpm)
+        corepack use pnpm@latest
+        ;;
+    esac
   ) >"$log_dir/$name.log" 2>&1 &
 
   pids+=("$!")
