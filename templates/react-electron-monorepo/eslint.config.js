@@ -1,8 +1,6 @@
 import {defineConfig} from "eslint/config"
-import {join} from "node:path"
 import * as tseslint from "typescript-eslint"
 
-import quiEslintMdx from "@qualcomm-ui/eslint-config-mdx"
 import quiEslintReact from "@qualcomm-ui/eslint-config-react"
 import quiEslintTs from "@qualcomm-ui/eslint-config-typescript"
 import quiEslintPluginReact from "@qualcomm-ui/eslint-plugin-react"
@@ -31,9 +29,9 @@ const eslintConfig = defineConfig([
   // JS
   {
     extends: [
-      quiEslintTs.configs.base,
       quiEslintTs.configs.sortKeys,
       quiEslintTs.configs.styleGuide,
+      quiEslintTs.configs.namingConventions,
     ],
     // recommendation: scope these to your source files in your package(s).
     files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
@@ -41,8 +39,7 @@ const eslintConfig = defineConfig([
   // TS
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
+      quiEslintTs.configs.recommended,
       quiEslintTs.configs.strictExports,
     ],
     // recommendation: scope these to your source files in your package(s).
@@ -52,29 +49,13 @@ const eslintConfig = defineConfig([
   // React
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
-      quiEslintReact.configs.base,
+      quiEslintTs.configs.recommended,
       quiEslintReact.configs.recommended,
-      // optional: include the plugin as well
       quiEslintPluginReact.config,
     ],
     // recommendation: scope these to your source files in your package(s).
     files: ["**/*.{ts,tsx}"],
     languageOptions: tsLanguageOptions,
-  },
-  // Markdown
-  {
-    extends: [quiEslintMdx.configs.recommended],
-    files: ["**/*.{md,mdx}", "*.md"],
-    languageOptions: {
-      parserOptions: {
-        remarkConfigPath: join(
-          import.meta.dirname,
-          "node_modules/@qualcomm-ui/eslint-config-mdx/.remarkrc",
-        ),
-      },
-    },
   },
 ])
 

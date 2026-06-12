@@ -7,11 +7,6 @@
 @import "@qualcomm-ui/qds-core/themes/qualcomm-dark.css";
 @import "@qualcomm-ui/qds-core/themes/qualcomm-light.css";
 
-:root {
-  --type-font-family-secondary: var(--font-roboto-flex);
-  --type-font-family-tertiary: var(--font-roboto-mono);
-}
-
 html {
   height: 100%;
 }
@@ -30,4 +25,3 @@ body {
   min-width: 100vw;
   padding: 16px;
 }
-

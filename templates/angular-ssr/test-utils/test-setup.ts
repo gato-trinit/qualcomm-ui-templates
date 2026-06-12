@@ -1,6 +1,3 @@
-// prevent test auto-cleanup to enable browser preview
-import "../src/styles.css"
-
 import {NgModule, provideZonelessChangeDetection} from "@angular/core"
 import {getTestBed} from "@angular/core/testing"
 import {
@@ -13,6 +10,9 @@ import {page} from "vitest/browser"
 import {provideQdsTheme} from "@qualcomm-ui/angular/theme"
 
 import {cleanup} from "./render"
+
+// prevent test auto-cleanup to enable browser preview
+import "../src/styles.css"
 
 @NgModule({
   providers: [provideZonelessChangeDetection()],

@@ -1,5 +1,3 @@
-import "./app.css"
-
 import type {ReactNode} from "react"
 
 import {
@@ -24,6 +22,8 @@ import {
 
 import type {Route} from "./+types/root"
 import {qdsThemeCookie} from "./sessions.server"
+
+import "./app.css"
 
 export const links: Route.LinksFunction = () => [
   {href: "https://fonts.googleapis.com", rel: "preconnect"},

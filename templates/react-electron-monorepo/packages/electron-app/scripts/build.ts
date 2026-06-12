@@ -108,4 +108,6 @@ async function main(argv: string[]) {
   ])
 }
 
-main(process.argv)
+void main(process.argv).catch(() => {
+  process.exit(0)
+})

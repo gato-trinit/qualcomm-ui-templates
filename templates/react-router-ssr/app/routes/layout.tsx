@@ -3,10 +3,10 @@ import type {ReactNode} from "react"
 import {Layers2, MoonIcon, SunIcon} from "lucide-react"
 import {Link, Outlet, useLocation} from "react-router"
 
+import {Theme, useTheme} from "@qualcomm-ui/react-router-utils/client"
 import {Avatar} from "@qualcomm-ui/react/avatar"
 import {HeaderBar} from "@qualcomm-ui/react/header-bar"
 import {Icon} from "@qualcomm-ui/react/icon"
-import {Theme, useTheme} from "@qualcomm-ui/react-router-utils/client"
 
 function ThemeToggle(): ReactNode {
   const [theme, setTheme] = useTheme()

@@ -60,7 +60,7 @@ const createWindow = async () => {
       win
         .loadURL(appUrl)
         .then(() => {
-          win.webContents.openDevTools()
+          return win.webContents.openDevTools()
         })
         .catch((err: any) => {
           console.debug(`Error starting application - ${err}`)
@@ -83,21 +83,27 @@ const createWindow = async () => {
   }
 }
 
-app.whenReady().then(() => {
-  registerHandlers()
+app
+  .whenReady()
+  .then(() => {
+    registerHandlers()
 
-  // Sync handler so the preload can set data-theme before the page renders
-  ipcMain.on("ipc::get-theme-sync", (event) => {
-    event.returnValue = store.get("theme")
+    // Sync handler so the preload can set data-theme before the page renders
+    ipcMain.on("ipc::get-theme-sync", (event) => {
+      event.returnValue = store.get("theme")
+    })
+
+    return createWindow()
   })
-
-  createWindow()
-})
+  .catch((e) => {
+    console.error("App failed to start", e)
+    process.exit(0)
+  })
 
 app.on("activate", () => {
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   if (BrowserWindow.getAllWindows().length === 0) {
-    createWindow()
+    void createWindow()
   }
 })
