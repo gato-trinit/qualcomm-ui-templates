@@ -88,7 +88,7 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2(eslint@9.39.4(jiti@2.7.0))
       '@qualcomm-ui/oxfmt-config':
-        specifier: 1.0.1
+        specifier: ^1.0.1
         version: 1.0.1(oxfmt@0.54.0)
       '@qualcomm-ui/tsconfig':
         specifier: ^2.1.1
@@ -121,40 +121,40 @@ importers:
         specifier: 22.1.1
         version: 22.1.1
       oxfmt:
-        specifier: ^0.54.0
+        specifier: 0.54.0
         version: 0.54.0
       remark-frontmatter:
-        specifier: ^5.0.0
+        specifier: 5.0.0
         version: 5.0.0
       remark-lint-fenced-code-flag:
-        specifier: ^4.2.0
+        specifier: 4.2.0
         version: 4.2.0
       remark-lint-final-newline:
-        specifier: ^3.0.1
+        specifier: 3.0.1
         version: 3.0.1
       remark-lint-heading-increment:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       remark-lint-list-item-content-indent:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       remark-lint-list-item-indent:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       remark-lint-maximum-heading-length:
-        specifier: ^4.1.1
+        specifier: 4.1.1
         version: 4.1.1
       remark-lint-no-consecutive-blank-lines:
-        specifier: ^5.0.1
+        specifier: 5.0.1
         version: 5.0.1
       remark-lint-no-duplicate-headings-in-section:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       remark-lint-no-heading-punctuation:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       remark-lint-unordered-list-marker-style:
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       tailwindcss:
         specifier: 4.3.0

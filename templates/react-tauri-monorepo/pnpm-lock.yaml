@@ -29,6 +29,9 @@ importers:
       '@qualcomm-ui/tsconfig':
         specifier: ^2.1.1
         version: 2.1.1(typescript@5.9.3)
+      '@qualcomm-ui/utils':
+        specifier: ^1.3.2
+        version: 1.3.2
       '@tauri-apps/cli':
         specifier: 2.11.2
         version: 2.11.2
@@ -54,8 +57,41 @@ importers:
         specifier: 8.0.4
         version: 8.0.4
       oxfmt:
-        specifier: ^0.54.0
+        specifier: 0.54.0
         version: 0.54.0
+      remark-frontmatter:
+        specifier: 5.0.0
+        version: 5.0.0
+      remark-lint-fenced-code-flag:
+        specifier: 4.2.0
+        version: 4.2.0
+      remark-lint-final-newline:
+        specifier: 3.0.1
+        version: 3.0.1
+      remark-lint-heading-increment:
+        specifier: 4.0.1
+        version: 4.0.1
+      remark-lint-list-item-content-indent:
+        specifier: 4.0.1
+        version: 4.0.1
+      remark-lint-list-item-indent:
+        specifier: 4.0.1
+        version: 4.0.1
+      remark-lint-maximum-heading-length:
+        specifier: 4.1.1
+        version: 4.1.1
+      remark-lint-no-consecutive-blank-lines:
+        specifier: 5.0.1
+        version: 5.0.1
+      remark-lint-no-duplicate-headings-in-section:
+        specifier: 4.0.1
+        version: 4.0.1
+      remark-lint-no-heading-punctuation:
+        specifier: 4.0.1
+        version: 4.0.1
+      remark-lint-unordered-list-marker-style:
+        specifier: 4.0.1
+        version: 4.0.1
       syncpack:
         specifier: 15.3.1
         version: 15.3.1

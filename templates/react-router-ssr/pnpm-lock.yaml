@@ -103,7 +103,7 @@ importers:
         specifier: 22.1.1
         version: 22.1.1
       oxfmt:
-        specifier: ^0.54.0
+        specifier: 0.54.0
         version: 0.54.0
       tailwindcss:
         specifier: 4.3.0

@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "clean": "shx rm -rf dist",
     "dev:site": "vite -c vite.config.ts --host --clearScreen=false",
-    "dev:ts": "tsc -b tsconfig.lib.json -w --preserveWatchOutput --force",
+    "dev:ts": "tsc -b tsconfig.lib.json -w --preserveWatchOutput",
     "dev": "run-p dev:site dev:ts",
-    "build": "tsc -b tsconfig.lib.json --force && vite build",
+    "build": "pnpm clean && tsc -b tsconfig.lib.json && vite build",
     "lint": "eslint --quiet",
     "preview": "vite preview -c vite.config.ts",
     "typecheck": "tsc -b tsconfig.lib.json --force"

@@ -53,7 +53,6 @@ const eslintConfig = defineConfig([
     extends: [
       quiEslintTs.configs.recommended,
       quiEslintReact.configs.recommended,
-      // optional: include the plugin as well
       quiEslintPluginReact.config,
     ],
     // recommendation: scope these to your source files in your package(s).

@@ -7,7 +7,7 @@ const host = process.env.TAURI_DEV_HOST
 export default defineConfig({
   base: "",
   build: {
-    emptyOutDir: true,
+    emptyOutDir: false,
     outDir: "dist",
   },
   css: {

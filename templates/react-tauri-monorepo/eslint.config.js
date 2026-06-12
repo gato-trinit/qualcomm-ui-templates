@@ -31,7 +31,7 @@ const eslintConfig = defineConfig([
   // JS
   {
     extends: [
-      quiEslintTs.configs.base,
+      quiEslintTs.configs.namingConventions,
       quiEslintTs.configs.sortKeys,
       quiEslintTs.configs.styleGuide,
     ],
@@ -41,8 +41,7 @@ const eslintConfig = defineConfig([
   // TS
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
+      quiEslintTs.configs.recommended,
       quiEslintTs.configs.strictExports,
     ],
     // recommendation: scope these to your source files in your package(s).
@@ -52,11 +51,8 @@ const eslintConfig = defineConfig([
   // React
   {
     extends: [
-      ...quiEslintTs.configs.recommended,
-      quiEslintTs.configs.performance,
-      quiEslintReact.configs.base,
+      quiEslintTs.configs.recommended,
       quiEslintReact.configs.recommended,
-      // optional: include the plugin as well
       quiEslintPluginReact.config,
     ],
     // recommendation: scope these to your source files in your package(s).
